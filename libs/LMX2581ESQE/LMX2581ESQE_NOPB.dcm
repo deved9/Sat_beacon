@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LMX2581ESQE_NOPB
+D Clock Synthesizer/Jitter Cleaner 3.8-GHz wideband frequency synthesizer with integrated VCO 32-WQFN -40 to 85
+K
+F https://www.ti.com/lit/ds/symlink/lmx2581e.pdf?ts=1648976113167&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
+#End Doc Library

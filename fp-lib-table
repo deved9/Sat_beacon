@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PLL_AD")(type "KiCad")(uri "${KIPRJMOD}/libs/ADF4360-1BCPZ")(options "")(descr ""))
+  (lib (name "PLL_TI")(type "KiCad")(uri "${KIPRJMOD}/libs/LMX2581ESQE")(options "")(descr ""))
+  (lib (name "STM32")(type "KiCad")(uri "${KIPRJMOD}/libs/STM32C011F6P6")(options "")(descr ""))
+)
