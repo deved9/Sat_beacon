@@ -4430,7 +4430,7 @@
 	)
 	(wire
 		(pts
-			(xy 295.91 195.58) (xy 306.07 195.58)
+			(xy 306.07 195.58) (xy 316.23 195.58)
 		)
 		(stroke
 			(width 0)
@@ -5709,7 +5709,7 @@
 		(uuid "22a8d27a-cf3e-4104-99dc-4b47b8b401bc")
 	)
 	(label "PLL_LED_1"
-		(at 295.91 195.58 0)
+		(at 306.07 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7239,7 +7239,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "560"
 			(at 285.75 184.1499 0)
 			(effects
 				(font
@@ -7509,7 +7509,7 @@
 				)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "220k"
 			(at 269.24 191.77 90)
 			(effects
 				(font
@@ -7909,7 +7909,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RF-TGB190TS-CA-P1"
 			(at 337.82 175.5774 90)
 			(effects
 				(font
@@ -7918,7 +7918,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 334.01 172.72 0)
 			(effects
 				(font
@@ -8121,7 +8121,7 @@
 				)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "220k"
 			(at 320.04 191.77 90)
 			(effects
 				(font
@@ -9618,7 +9618,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "560"
 			(at 387.35 184.1499 0)
 			(effects
 				(font
@@ -10551,7 +10551,7 @@
 				)
 			)
 		)
-		(property "Value" "6k8"
+		(property "Value" "220k"
 			(at 370.84 191.77 90)
 			(effects
 				(font
@@ -10620,7 +10620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC817"
+		(property "Value" "BC817-40"
 			(at 336.55 196.8499 0)
 			(effects
 				(font
@@ -11851,7 +11851,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RF-TGB190TS-CA-P1"
 			(at 287.02 175.5774 90)
 			(effects
 				(font
@@ -11860,7 +11860,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 283.21 172.72 0)
 			(effects
 				(font
@@ -15379,7 +15379,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC817"
+		(property "Value" "BC817-40"
 			(at 285.75 196.8499 0)
 			(effects
 				(font
@@ -15675,7 +15675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC817"
+		(property "Value" "BC817-40"
 			(at 387.35 196.8499 0)
 			(effects
 				(font
@@ -17046,7 +17046,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "560"
 			(at 336.55 184.1499 0)
 			(effects
 				(font
@@ -17116,7 +17116,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RF-TGB190TS-CA-P1"
 			(at 388.62 175.5774 90)
 			(effects
 				(font
@@ -17125,7 +17125,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 384.81 172.72 0)
 			(effects
 				(font
