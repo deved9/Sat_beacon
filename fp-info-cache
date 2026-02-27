@@ -1,4 +1,4 @@
-26564536944089169
+26568080960016221
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -73779,13 +73779,20 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
-PLL
+PLL_AD
 QFN50P400X400X80-25N
 
 
 0
 25
 25
+PLL_TI
+QFN50P500X500X80-33M
+RTV0032A 2021
+Integrated Circuit
+0
+33
+33
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -96277,6 +96284,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+STM32
+SOIC65P640X120-20N
+
+
+0
+20
+20
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf

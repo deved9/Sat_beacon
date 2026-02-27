@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "PLL_AD")(type "KiCad")(uri "${KIPRJMOD}/libs/ADF4360-1BCPZ/ADF4360-1BCPZ.kicad_sym")(options "")(descr ""))
   (lib (name "PLL_TI")(type "KiCad")(uri "${KIPRJMOD}/libs/LMX2581ESQE/LMX2581ESQE_NOPB.kicad_sym")(options "")(descr ""))
+  (lib (name "1720BL15B0050002E")(type "KiCad")(uri "${KIPRJMOD}/libs/1720BL15B0050002E.kicad_sym")(options "")(descr ""))
 )
