@@ -12825,7 +12825,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "10u"
 			(at 202.184 51.308 0)
 			(effects
 				(font
@@ -14245,7 +14245,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2u"
+		(property "Value" "22u"
 			(at 202.184 44.958 0)
 			(effects
 				(font
