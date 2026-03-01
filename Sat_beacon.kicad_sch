@@ -4665,6 +4665,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 67.31) (xy 78.74 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e4a87fd-fa11-45da-9574-5f4936dd45a4")
+	)
+	(wire
+		(pts
 			(xy 40.64 120.65) (xy 38.1 120.65)
 		)
 		(stroke
@@ -4845,16 +4855,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 59.69) (xy 217.17 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ccf3415-1558-4974-aae0-4ba306b8692d")
-	)
-	(wire
-		(pts
 			(xy 290.83 99.06) (xy 279.4 99.06)
 		)
 		(stroke
@@ -5012,16 +5012,6 @@
 			(type default)
 		)
 		(uuid "4c415636-e75f-41ce-b0b6-0acb98906fc6")
-	)
-	(wire
-		(pts
-			(xy 66.04 64.77) (xy 78.74 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cdaacb8-cbfd-4590-979b-84e1fc616f4e")
 	)
 	(wire
 		(pts
@@ -5335,16 +5325,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 67.31) (xy 78.74 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63ea080f-8918-4147-b678-c1325d614d89")
-	)
-	(wire
-		(pts
 			(xy 426.72 116.84) (xy 426.72 119.38)
 		)
 		(stroke
@@ -5605,7 +5585,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 59.69) (xy 205.74 59.69)
+			(xy 205.74 59.69) (xy 219.71 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5652,6 +5632,16 @@
 			(type default)
 		)
 		(uuid "826b5a41-417f-47cb-9add-261bf61439ec")
+	)
+	(wire
+		(pts
+			(xy 66.04 80.01) (xy 78.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82be6235-2e98-4f80-a699-54e8643d7bfb")
 	)
 	(wire
 		(pts
@@ -6145,6 +6135,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 64.77) (xy 78.74 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a82174b6-dd09-4194-a4e2-104a434c5fc8")
+	)
+	(wire
+		(pts
 			(xy 203.2 123.19) (xy 203.2 133.35)
 		)
 		(stroke
@@ -6272,6 +6272,16 @@
 			(type default)
 		)
 		(uuid "b06e6285-a80e-4bb4-a271-643508a14d5c")
+	)
+	(wire
+		(pts
+			(xy 66.04 82.55) (xy 78.74 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b12b354a-91cd-4916-9975-e4f27de59f3a")
 	)
 	(wire
 		(pts
@@ -6925,16 +6935,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 59.69) (xy 217.17 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea698ce1-2cc4-44f0-81ab-1c57c93452b3")
-	)
-	(wire
-		(pts
 			(xy 205.74 133.35) (xy 205.74 134.62)
 		)
 		(stroke
@@ -7303,6 +7303,16 @@
 		)
 		(uuid "2a5245c9-224f-4376-9b01-1884da029166")
 	)
+	(label "PLL_RF_EN_1"
+		(at 78.74 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2a796d17-a53b-42e6-ba84-72ac87b19bc1")
+	)
 	(label "SWDCLK"
 		(at 73.66 191.77 0)
 		(effects
@@ -7373,16 +7383,6 @@
 		)
 		(uuid "429e8190-3ebc-4c81-a0c7-6eaac71641b9")
 	)
-	(label "PLL_LED_1"
-		(at 78.74 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4416cd29-c8e2-4dde-bb47-115734935827")
-	)
 	(label "PLL_DATA_2"
 		(at 78.74 74.93 180)
 		(effects
@@ -7422,6 +7422,16 @@
 			(justify left bottom)
 		)
 		(uuid "5173b9de-fc03-4f75-88be-6ebcd7476c25")
+	)
+	(label "PLL_RF_EN_2"
+		(at 78.74 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55f4b0af-75ed-4181-9104-cea44a7eac28")
 	)
 	(label "PLL_CLK"
 		(at 38.1 184.15 0)
@@ -7522,16 +7532,6 @@
 			(justify left bottom)
 		)
 		(uuid "79ddadf6-db53-4355-8a45-f0ef66727a61")
-	)
-	(label "PLL_LED_2"
-		(at 78.74 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7b23ab23-a67e-4156-a897-c247e6645b19")
 	)
 	(label "RF2_N"
 		(at 318.77 217.17 0)
@@ -7683,6 +7683,26 @@
 		)
 		(uuid "aa6243b7-7712-421e-bd64-a3d8dedeb1ba")
 	)
+	(label "PLL_LED_2"
+		(at 78.74 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aaf30142-c7e6-40f4-a426-4ae8cbd02d39")
+	)
+	(label "PLL_LED_1"
+		(at 78.74 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1ac60f5-5506-4f99-b705-9420ffca9fd8")
+	)
 	(label "SWDCLK"
 		(at 78.74 87.63 180)
 		(effects
@@ -7762,6 +7782,16 @@
 			(justify right bottom)
 		)
 		(uuid "e6998f60-afe1-440b-92bc-ce6e09d691d4")
+	)
+	(label "PLL_RF_EN_1"
+		(at 219.71 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6a69bb8-833d-4c0f-b6e2-462103be6d74")
 	)
 	(label "PLL_DATA_1"
 		(at 78.74 57.15 180)
@@ -10619,73 +10649,6 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 217.17 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "242c908f-0bdd-4fe5-9a34-c49c970f6977")
-		(property "Reference" "#PWR0122"
-			(at 217.17 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC_D"
-			(at 217.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 217.17 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2b1714c-a632-478f-959f-eda1cb42054c")
-		)
-		(instances
-			(project "Sat_beacon"
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -15311,74 +15274,6 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 210.82 59.69 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60e370ac-0933-4e30-9c5f-85385d9a6cfe")
-		(property "Reference" "R26"
-			(at 210.82 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 210.82 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 210.82 57.912 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 210.82 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1147820e-1390-4224-80ba-22ea57a61c87")
-		)
-		(pin "2"
-			(uuid "2ace5c54-614b-49f0-a019-d48daec4c176")
-		)
-		(instances
-			(project "Sat_beacon"
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "R26")
 					(unit 1)
 				)
 			)
