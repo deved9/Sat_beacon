@@ -4321,6 +4321,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "PLL2 - 2.4GHz"
+		(exclude_from_sim no)
+		(at 327.406 21.336 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "1fb246f9-f5d0-4edf-af55-408504270723")
+	)
+	(text "PLL1 - 1.26GHz"
+		(exclude_from_sim no)
+		(at 198.12 21.336 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+		)
+		(uuid "e1205daf-77c2-4377-b225-05797c29a25d")
+	)
 	(junction
 		(at 322.58 134.62)
 		(diameter 0)
@@ -9067,6 +9087,141 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 299.72 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "069a9c23-1682-48a2-a9b3-b5a02c7a9f1f")
+		(property "Reference" "C65"
+			(at 299.72 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13p"
+			(at 299.72 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 303.53 164.1348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h130gb01d/kondenzatory-mlcc-smd/murata/"
+			(at 299.72 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 299.72 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "78d5d958-f461-4196-b77e-7b2196934ac9")
+		)
+		(pin "1"
+			(uuid "bd251db1-2220-412e-b41b-cb2b62c437ab")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "077e586d-dfc6-49cd-8022-4f00a7830ca8")
+		(property "Reference" "C63"
+			(at 181.102 193.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47p"
+			(at 181.102 195.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 180.34 189.5348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h470jb01d/kondenzatory-mlcc-smd/murata/"
+			(at 176.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30fe6166-4d3a-46ad-af66-131b9db7f12a")
+		)
+		(pin "1"
+			(uuid "967b7084-f447-44d3-879b-d0803a934229")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 293.37 171.45 0)
 		(mirror x)
@@ -9333,73 +9488,6 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "C41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 176.53 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b771759-8609-469e-a6e5-44e161bf3b71")
-		(property "Reference" "C62"
-			(at 180.086 177.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100p"
-			(at 180.086 180.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 180.34 178.1048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 176.53 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb2d4726-a6d7-4ada-b17b-46f9017fdfdb")
-		)
-		(pin "1"
-			(uuid "13197ea8-c4f0-4541-97c0-f8adb1cfdf89")
-		)
-		(instances
-			(project "Sat_beacon"
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -10988,7 +11076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 105.41 69.088 90)
 			(effects
 				(font
@@ -11189,7 +11277,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 412.75 137.668 90)
 			(effects
 				(font
@@ -11389,7 +11477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 412.75 187.198 90)
 			(effects
 				(font
@@ -12006,7 +12094,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 463.55 137.668 90)
 			(effects
 				(font
@@ -12512,6 +12600,73 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 299.72 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3553ebdb-c367-4e35-8adb-f8dfca127bd9")
+		(property "Reference" "C66"
+			(at 305.308 182.118 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13p"
+			(at 305.308 184.658 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 303.53 178.1048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h130gb01d/kondenzatory-mlcc-smd/murata/"
+			(at 299.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 299.72 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1527b048-cb0a-4811-9fc1-0af91d3fbdee")
+		)
+		(pin "1"
+			(uuid "afc614b3-8080-4786-8c3a-d323a44669cc")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -13545,73 +13700,6 @@
 			(project ""
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 176.53 190.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f8553b8-25cc-40a3-b246-4489212991fd")
-		(property "Reference" "C63"
-			(at 180.086 188.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100p"
-			(at 180.086 192.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 180.34 189.5348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 176.53 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d68ae69b-8dc8-4d1a-b101-10bd000cb5f2")
-		)
-		(pin "1"
-			(uuid "b80e52bc-5de6-40ce-ba70-d00427ae805a")
-		)
-		(instances
-			(project "Sat_beacon"
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -14984,7 +15072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 354.33 61.2648 0)
 			(effects
 				(font
@@ -15829,6 +15917,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 176.53 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "57d090ac-558a-41fe-a86f-eba41e3e0b4b")
+		(property "Reference" "C62"
+			(at 181.102 181.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47p"
+			(at 181.102 183.642 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 180.34 178.1048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h470jb01d/kondenzatory-mlcc-smd/murata/"
+			(at 176.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6b73b01-6f25-47e3-8525-cd2362517ce8")
+		)
+		(pin "1"
+			(uuid "8a8d34fe-bfe9-4e87-8301-20744e6ab999")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 55.88 270)
 		(unit 1)
@@ -15921,7 +16076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 463.55 187.198 90)
 			(effects
 				(font
@@ -16556,76 +16711,6 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 123.19 215.9 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66200788-af35-4eff-aa38-15e2ef4479e3")
-		(property "Reference" "C70"
-			(at 127 214.6299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "13p (2.4GHz)"
-			(at 127 217.1699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 124.1552 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h130gb01d/kondenzatory-mlcc-smd/murata/"
-			(at 123.19 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 123.19 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "15f8bbfc-4b65-4552-8699-6dc2bfb39d3c")
-		)
-		(pin "1"
-			(uuid "df1f8964-7eb7-44df-b59f-cdf20d5cee17")
-		)
-		(instances
-			(project "Sat_beacon"
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -18596,76 +18681,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 123.19 199.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "827c4b76-37f9-4596-b1e7-744e448615e3")
-		(property "Reference" "C69"
-			(at 127 198.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47p (1.2GHz)"
-			(at 127 200.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 124.1552 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h470jb01d/kondenzatory-mlcc-smd/murata/"
-			(at 123.19 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 123.19 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec74fd4e-7c7e-47fe-be6f-32b88532c8a6")
-		)
-		(pin "1"
-			(uuid "446b75e5-c93f-4564-9aa4-19a8567ebc47")
-		)
-		(instances
-			(project ""
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "C69")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Oscillator:TXC-7C")
 		(at 119.38 67.31 0)
 		(unit 1)
@@ -19727,7 +19742,7 @@
 				)
 			)
 		)
-		(property "Value" "MCP1700x-330xxMB"
+		(property "Value" "LD1117DT33"
 			(at 49.53 147.32 0)
 			(effects
 				(font
@@ -19735,7 +19750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 49.53 146.05 0)
 			(effects
 				(font
@@ -19744,7 +19759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld1117.pdf"
 			(at 49.53 152.4 0)
 			(effects
 				(font
@@ -20065,7 +20080,7 @@
 				)
 			)
 		)
-		(property "Value" "LD1117V33"
+		(property "Value" "LD1117DT33"
 			(at 48.26 116.84 0)
 			(effects
 				(font
@@ -20720,6 +20735,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 176.53 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aab4c3e1-6807-4d00-88a9-1991f471abaf")
+		(property "Reference" "C61"
+			(at 176.53 157.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47p"
+			(at 176.53 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 180.34 164.1348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h470jb01d/kondenzatory-mlcc-smd/murata/"
+			(at 176.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6a155aa9-21a3-4d9b-9f7a-3844baaff15e")
+		)
+		(pin "1"
+			(uuid "8bc7fb1b-160f-4516-9c28-b0f3e6bf44b8")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 229.87 90.17 90)
 		(unit 1)
@@ -21049,140 +21132,6 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "C60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 299.72 204.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b18d9c41-3972-48f6-9a21-dc1b812bd5b5")
-		(property "Reference" "C68"
-			(at 303.276 202.438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100p"
-			(at 303.276 206.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 303.53 203.5048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 299.72 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 299.72 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c202bb46-6e49-4e38-b60d-d8e7bb1c176c")
-		)
-		(pin "1"
-			(uuid "8d86934b-b8c8-45eb-b4f9-e756e077cea2")
-		)
-		(instances
-			(project "Sat_beacon"
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "C68")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 299.72 190.5 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b45a08cd-c9c6-4d67-8bb2-1f7fd17e1e36")
-		(property "Reference" "C67"
-			(at 303.276 188.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100p"
-			(at 303.276 192.278 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 303.53 189.5348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 299.72 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 299.72 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f7e29090-c35c-4aeb-898f-bedc6b07c429")
-		)
-		(pin "1"
-			(uuid "c1dfbe06-7c98-42b6-adc8-8445c9b9ccdd")
-		)
-		(instances
-			(project "Sat_beacon"
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -21751,7 +21700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 222.25 59.9948 0)
 			(effects
 				(font
@@ -22739,73 +22688,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 204.47 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c7fbd45c-55e4-4561-aced-1d7fecd91664")
-		(property "Reference" "C64"
-			(at 180.086 202.438 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100p"
-			(at 180.086 206.248 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 180.34 203.5048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 176.53 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c88795df-c950-45f4-9c16-cd4e248f1d1a")
-		)
-		(pin "1"
-			(uuid "b94c7a25-8771-4abb-b615-3b1d3b274d97")
-		)
-		(instances
-			(project "Sat_beacon"
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "C64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 337.82 139.7 0)
 		(mirror x)
 		(unit 1)
@@ -23157,7 +23039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 222.25 73.9648 0)
 			(effects
 				(font
@@ -23201,23 +23083,24 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 165.1 90)
+		(at 176.53 204.47 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d0df7970-0885-4e26-bfd2-aad32fc40d0b")
-		(property "Reference" "C61"
-			(at 180.086 163.068 90)
+		(uuid "d0776010-9951-4d89-a14d-61da3192284b")
+		(property "Reference" "C64"
+			(at 176.53 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "100p"
-			(at 180.086 166.878 90)
+		(property "Value" "47p"
+			(at 176.53 209.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23225,7 +23108,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 180.34 164.1348 0)
+			(at 180.34 205.4352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23233,8 +23116,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 176.53 165.1 0)
+		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h470jb01d/kondenzatory-mlcc-smd/murata/"
+			(at 176.53 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23243,7 +23126,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 165.1 0)
+			(at 176.53 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23252,15 +23135,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "88fc9f42-df3f-44cc-9bc4-68c073155612")
+			(uuid "0295042c-c745-455d-a842-33fe3c763dc8")
 		)
 		(pin "1"
-			(uuid "b11e7f71-1f60-4d36-b95a-d301715076f4")
+			(uuid "ad3c79b4-fe1b-480b-9e99-aea84faa4347")
 		)
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "C61")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -23662,7 +23545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 354.33 75.2348 0)
 			(effects
 				(font
@@ -23776,73 +23659,6 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 299.72 165.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7812900-2c04-49c3-b619-1fb2d8852c4a")
-		(property "Reference" "C65"
-			(at 303.276 163.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100p"
-			(at 303.276 166.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 303.53 164.1348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 299.72 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 299.72 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "25fb43d4-b1f9-4a5a-9bf7-e7590896d990")
-		)
-		(pin "1"
-			(uuid "d3d3f32d-a5cc-4ab7-b233-9afccf8b50f5")
-		)
-		(instances
-			(project "Sat_beacon"
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -24618,73 +24434,6 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 299.72 179.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1d383cc-a4e2-471e-b447-4bccff86db23")
-		(property "Reference" "C66"
-			(at 303.276 177.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100p"
-			(at 303.276 180.848 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 303.53 178.1048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 299.72 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 299.72 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "88e610cb-e857-42eb-ab2a-7605f5344309")
-		)
-		(pin "1"
-			(uuid "6ef955c1-79f6-445e-9903-5f31cb322d0c")
-		)
-		(instances
-			(project "Sat_beacon"
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -26112,6 +25861,73 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 299.72 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f654661d-6f9b-4962-bb46-c643cb543b4f")
+		(property "Reference" "C67"
+			(at 306.07 192.786 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13p"
+			(at 306.07 195.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 303.53 189.5348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h130gb01d/kondenzatory-mlcc-smd/murata/"
+			(at 299.72 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 299.72 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b9699683-c38e-4e5c-a37f-fe03adad818e")
+		)
+		(pin "1"
+			(uuid "bbb5db9b-8fd3-47d1-b8b3-0998e0af979d")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 355.6 44.45 0)
 		(mirror x)
 		(unit 1)
@@ -26459,6 +26275,74 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 299.72 204.47 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fef77938-32c1-420a-bf30-59b0da4bcc3d")
+		(property "Reference" "C68"
+			(at 299.72 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "13p"
+			(at 299.72 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 303.53 205.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h130gb01d/kondenzatory-mlcc-smd/murata/"
+			(at 299.72 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 299.72 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4985a10b-d4d6-4896-adf3-4ea615ff654c")
+		)
+		(pin "1"
+			(uuid "d10c4a64-a9a1-4d29-8c34-917cb64b708e")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C68")
 					(unit 1)
 				)
 			)
