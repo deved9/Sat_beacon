@@ -11947,7 +11947,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_0.8mm-PCB"
+		(property "Footprint" "Library:MMCX-J-P-X-ST-EM1"
 			(at 370.84 185.42 0)
 			(effects
 				(font
@@ -14128,7 +14128,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:MMCX_Molex_73415-0961_Horizontal_0.8mm-PCB"
+		(property "Footprint" "Library:MMCX-J-P-X-ST-EM1"
 			(at 247.65 185.42 0)
 			(effects
 				(font
