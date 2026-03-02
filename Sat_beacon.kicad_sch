@@ -16562,6 +16562,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 123.19 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "66200788-af35-4eff-aa38-15e2ef4479e3")
+		(property "Reference" "C70"
+			(at 127 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "13p (2.4GHz)"
+			(at 127 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 124.1552 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h130gb01d/kondenzatory-mlcc-smd/murata/"
+			(at 123.19 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15f8bbfc-4b65-4552-8699-6dc2bfb39d3c")
+		)
+		(pin "1"
+			(uuid "df1f8964-7eb7-44df-b59f-cdf20d5cee17")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 233.68 111.76 0)
 		(mirror y)
@@ -18520,6 +18590,76 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 123.19 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "827c4b76-37f9-4596-b1e7-744e448615e3")
+		(property "Reference" "C69"
+			(at 127 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47p (1.2GHz)"
+			(at 127 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 124.1552 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/cz/details/gjm1555c1h470jb01d/kondenzatory-mlcc-smd/murata/"
+			(at 123.19 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec74fd4e-7c7e-47fe-be6f-32b88532c8a6")
+		)
+		(pin "1"
+			(uuid "446b75e5-c93f-4564-9aa4-19a8567ebc47")
+		)
+		(instances
+			(project ""
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C69")
 					(unit 1)
 				)
 			)
