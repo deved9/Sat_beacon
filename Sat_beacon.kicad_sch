@@ -4384,6 +4384,12 @@
 		(uuid "234e55aa-caf7-4e7d-af89-701a4f9e7dfe")
 	)
 	(junction
+		(at 72.39 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26557e0c-17c7-4cc3-b9e9-05eb4f71327a")
+	)
+	(junction
 		(at 170.18 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4540,6 +4546,12 @@
 		(uuid "6a10a2e2-0043-4bbc-b197-35dc6ab731a4")
 	)
 	(junction
+		(at 60.96 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d672a09-d5d1-4e63-a09a-99b2d1170ac7")
+	)
+	(junction
 		(at 198.12 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4588,6 +4600,12 @@
 		(uuid "91948ece-c0b6-49ca-b79e-793a60a0124a")
 	)
 	(junction
+		(at 39.37 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93f19575-d54c-42de-b27d-61bd65416bc8")
+	)
+	(junction
 		(at 477.52 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4610,6 +4628,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a410dcff-89c0-4120-b3b5-6f6812f30b0b")
+	)
+	(junction
+		(at 16.51 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8ec9a71-1b19-41af-84ee-faf0045f7560")
 	)
 	(junction
 		(at 119.38 55.88)
@@ -4702,6 +4726,12 @@
 		(uuid "dd3c1319-5675-4e45-a706-3e4c2016dbc0")
 	)
 	(junction
+		(at 27.94 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e065eb2b-e64c-4d87-9197-002b74318757")
+	)
+	(junction
 		(at 170.18 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4751,6 +4781,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 179.07) (xy 72.39 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "000fd54b-67ee-4ee0-b066-97b5e7170240")
+	)
+	(wire
+		(pts
 			(xy 82.55 120.65) (xy 82.55 119.38)
 		)
 		(stroke
@@ -4758,6 +4798,16 @@
 			(type default)
 		)
 		(uuid "00f2baaf-9efb-4f29-9d8f-940a59338bbd")
+	)
+	(wire
+		(pts
+			(xy 82.55 120.65) (xy 82.55 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0280682b-6be2-48d4-89f4-5cc450addf21")
 	)
 	(wire
 		(pts
@@ -4791,7 +4841,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 189.23) (xy 46.99 189.23)
+			(xy 29.21 213.36) (xy 41.91 213.36)
 		)
 		(stroke
 			(width 0)
@@ -5031,7 +5081,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 186.69) (xy 46.99 186.69)
+			(xy 29.21 210.82) (xy 41.91 210.82)
 		)
 		(stroke
 			(width 0)
@@ -5058,6 +5108,16 @@
 			(type default)
 		)
 		(uuid "1b5bcff7-ed24-4383-a6f7-64ee22eea39d")
+	)
+	(wire
+		(pts
+			(xy 27.94 179.07) (xy 39.37 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c535c8d-cb21-47fa-8b4f-57c632cf80e7")
 	)
 	(wire
 		(pts
@@ -5171,6 +5231,16 @@
 	)
 	(wire
 		(pts
+			(xy 16.51 151.13) (xy 27.94 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fe9dc3d-6bf7-481e-ab46-5a1e3632c9f9")
+	)
+	(wire
+		(pts
 			(xy 289.56 204.47) (xy 293.37 204.47)
 		)
 		(stroke
@@ -5241,6 +5311,36 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 179.07) (xy 72.39 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac6cad6-c079-48f4-bc7e-f709e2284984")
+	)
+	(wire
+		(pts
+			(xy 72.39 179.07) (xy 73.66 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d690ccd-8d9c-4b5c-be30-a20808e76770")
+	)
+	(wire
+		(pts
+			(xy 27.94 179.07) (xy 27.94 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d750e57-9fa2-4ecf-ad2f-d883880f5348")
+	)
+	(wire
+		(pts
 			(xy 66.04 67.31) (xy 78.74 67.31)
 		)
 		(stroke
@@ -5281,7 +5381,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 189.23) (xy 102.87 189.23)
+			(xy 85.09 213.36) (xy 97.79 213.36)
 		)
 		(stroke
 			(width 0)
@@ -5391,6 +5491,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 179.07) (xy 60.96 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393896bb-47ce-430a-b9b8-20b2d0f6b664")
+	)
+	(wire
+		(pts
 			(xy 293.37 204.47) (xy 295.91 204.47)
 		)
 		(stroke
@@ -5421,6 +5531,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 179.07) (xy 39.37 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b719b9f-0553-416d-8f58-6e84a7529a87")
+	)
+	(wire
+		(pts
 			(xy 35.56 107.95) (xy 31.75 107.95)
 		)
 		(stroke
@@ -5441,7 +5561,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 191.77) (xy 73.66 191.77)
+			(xy 55.88 215.9) (xy 68.58 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5691,6 +5811,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 179.07) (xy 83.82 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a05f2b-98e7-401e-bebe-2adf81ca32d2")
+	)
+	(wire
+		(pts
 			(xy 220.98 87.63) (xy 220.98 82.55)
 		)
 		(stroke
@@ -5791,6 +5921,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 179.07) (xy 83.82 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd7e7ce-f5e9-4998-a0ba-e3680484e703")
+	)
+	(wire
+		(pts
 			(xy 166.37 204.47) (xy 170.18 204.47)
 		)
 		(stroke
@@ -5838,6 +5978,16 @@
 			(type default)
 		)
 		(uuid "5eed3b7b-a87b-4bc2-b1af-6de8ec93d7e2")
+	)
+	(wire
+		(pts
+			(xy 16.51 179.07) (xy 16.51 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6028383c-6d89-4e41-8207-2f189c569ae7")
 	)
 	(wire
 		(pts
@@ -6071,7 +6221,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 152.4) (xy 99.06 153.67)
+			(xy 110.49 149.86) (xy 110.49 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6461,7 +6611,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 184.15) (xy 73.66 184.15)
+			(xy 55.88 208.28) (xy 68.58 208.28)
 		)
 		(stroke
 			(width 0)
@@ -6721,7 +6871,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 186.69) (xy 73.66 186.69)
+			(xy 55.88 210.82) (xy 68.58 210.82)
 		)
 		(stroke
 			(width 0)
@@ -6738,6 +6888,16 @@
 			(type default)
 		)
 		(uuid "a4c649ad-cb0f-4b94-b96c-7e096b4b3be3")
+	)
+	(wire
+		(pts
+			(xy 39.37 179.07) (xy 39.37 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a57830fe-4bea-4784-9aa4-150c367e7f65")
 	)
 	(wire
 		(pts
@@ -6768,6 +6928,16 @@
 			(type default)
 		)
 		(uuid "a75a8493-9732-46bd-a37f-f60f069e5b81")
+	)
+	(wire
+		(pts
+			(xy 60.96 179.07) (xy 60.96 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a763945a-ffb5-4d19-8c3d-2c18c059cbb6")
 	)
 	(wire
 		(pts
@@ -6971,7 +7141,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 189.23) (xy 73.66 189.23)
+			(xy 55.88 213.36) (xy 68.58 213.36)
 		)
 		(stroke
 			(width 0)
@@ -6991,7 +7161,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 191.77) (xy 46.99 191.77)
+			(xy 29.21 215.9) (xy 41.91 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7038,6 +7208,16 @@
 			(type default)
 		)
 		(uuid "bc098f23-aa7b-4e18-959a-1dac23fc19f0")
+	)
+	(wire
+		(pts
+			(xy 92.71 130.81) (xy 96.52 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be228815-90b5-4aa4-8bc9-0225f0679d96")
 	)
 	(wire
 		(pts
@@ -7131,7 +7311,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 184.15) (xy 46.99 184.15)
+			(xy 29.21 208.28) (xy 41.91 208.28)
 		)
 		(stroke
 			(width 0)
@@ -7141,7 +7321,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 191.77) (xy 102.87 191.77)
+			(xy 85.09 215.9) (xy 97.79 215.9)
 		)
 		(stroke
 			(width 0)
@@ -7318,6 +7498,16 @@
 			(type default)
 		)
 		(uuid "cf3a7285-a154-4fd5-bc64-6f7d179bca7b")
+	)
+	(wire
+		(pts
+			(xy 16.51 179.07) (xy 27.94 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d043c4ef-0da0-40de-b808-4b7e254100da")
 	)
 	(wire
 		(pts
@@ -7611,16 +7801,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 151.13) (xy 27.94 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e57597c4-e59d-4d23-aa49-dc481bc8e5fc")
-	)
-	(wire
-		(pts
 			(xy 416.56 185.42) (xy 419.1 185.42)
 		)
 		(stroke
@@ -7821,6 +8001,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 130.81) (xy 96.52 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f88eefa4-56b8-4f99-b830-a024fe75074b")
+	)
+	(wire
+		(pts
 			(xy 15.24 69.85) (xy 30.48 69.85)
 		)
 		(stroke
@@ -7858,6 +8048,16 @@
 			(type default)
 		)
 		(uuid "fc4ac150-6b84-45cc-8632-090b1eae2800")
+	)
+	(wire
+		(pts
+			(xy 82.55 130.81) (xy 85.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc50bb3d-06f3-4995-9b9d-0ff2a3daeeea")
 	)
 	(wire
 		(pts
@@ -8010,7 +8210,7 @@
 		(uuid "282e3c39-cb2b-4391-b753-825ec8de970e")
 	)
 	(label "PLL_LE_1"
-		(at 38.1 189.23 0)
+		(at 33.02 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8030,7 +8230,7 @@
 		(uuid "2a796d17-a53b-42e6-ba84-72ac87b19bc1")
 	)
 	(label "SWDCLK"
-		(at 96.52 191.77 0)
+		(at 91.44 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8140,7 +8340,7 @@
 		(uuid "4c74903c-3d37-48d8-8180-ee19c3127885")
 	)
 	(label "PLL_DATA_1"
-		(at 38.1 186.69 0)
+		(at 33.02 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8160,7 +8360,7 @@
 		(uuid "55f4b0af-75ed-4181-9104-cea44a7eac28")
 	)
 	(label "PLL_CLK_1"
-		(at 38.1 184.15 0)
+		(at 33.02 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8220,7 +8420,7 @@
 		(uuid "6cdcf601-2dbf-4b08-a71e-225ce2deba53")
 	)
 	(label "SWDIO"
-		(at 96.52 189.23 0)
+		(at 91.44 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8320,7 +8520,7 @@
 		(uuid "82cd5011-eb2b-4272-86f6-a70c7542c457")
 	)
 	(label "PLL_DATA_2"
-		(at 64.77 186.69 0)
+		(at 59.69 210.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8330,7 +8530,7 @@
 		(uuid "860b2482-4bd7-46b3-8af9-8ab43a5c297d")
 	)
 	(label "PLL_CE_1"
-		(at 38.1 191.77 0)
+		(at 33.02 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8430,7 +8630,7 @@
 		(uuid "a5dd7cea-0f30-4152-9f15-df842fe9c494")
 	)
 	(label "PLL_LE_2"
-		(at 64.77 189.23 0)
+		(at 59.69 213.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8580,7 +8780,7 @@
 		(uuid "e8c1b36b-237e-4a8f-bfd7-2467d463a061")
 	)
 	(label "PLL_CLK_2"
-		(at 64.77 184.15 0)
+		(at 59.69 208.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8590,7 +8790,7 @@
 		(uuid "ee35db1f-6ff2-42a9-ad20-dd69c90efcf0")
 	)
 	(label "PLL_CE_2"
-		(at 64.77 191.77 0)
+		(at 59.69 215.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9909,7 +10109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0efc8440-54bc-4258-ace7-fa70dade353d")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "VCC_PLL2"
 			(at 365.76 106.68 0)
 			(effects
 				(font
@@ -9918,7 +10118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_VCO"
+		(property "Value" "VCC_PLL2"
 			(at 368.3 101.5999 0)
 			(effects
 				(font
@@ -9960,7 +10160,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR0115")
+					(reference "VCC_PLL2")
 					(unit 1)
 				)
 			)
@@ -10320,7 +10520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12ce43b1-a7db-4a61-a5f9-512fadefdcbb")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "VCC_PLL2"
 			(at 293.37 165.1 0)
 			(effects
 				(font
@@ -10329,7 +10529,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL2"
 			(at 285.75 165.1001 90)
 			(effects
 				(font
@@ -10371,7 +10571,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR0125")
+					(reference "VCC_PLL2")
 					(unit 1)
 				)
 			)
@@ -10590,7 +10790,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16060c69-b200-4602-a1b3-7ddafe6f261a")
-		(property "Reference" "#PWR034"
+		(property "Reference" "VCC_PLL1"
 			(at 165.1 55.88 0)
 			(effects
 				(font
@@ -10599,7 +10799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL1"
 			(at 165.1 46.99 0)
 			(effects
 				(font
@@ -10640,7 +10840,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR034")
+					(reference "VCC_PLL1")
 					(unit 1)
 				)
 			)
@@ -11051,6 +11251,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 96.52 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c30d7d5-421b-4571-930d-1a746d787b31")
+		(property "Reference" "#PWR031"
+			(at 96.52 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_PLL2"
+			(at 95.758 124.714 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 96.52 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbb5ce1e-11fe-4abf-96f9-25d0c4ff754f")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 105.41 67.31 90)
 		(unit 1)
@@ -11194,7 +11460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ccb6810-a6a3-41e8-b769-0823f628350c")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "VCC_PLL1"
 			(at 170.18 165.1 0)
 			(effects
 				(font
@@ -11203,7 +11469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL1"
 			(at 162.56 165.1001 90)
 			(effects
 				(font
@@ -11245,7 +11511,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR0123")
+					(reference "VCC_PLL1")
 					(unit 1)
 				)
 			)
@@ -11733,7 +11999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29340d8e-0c38-4b34-a0a1-66a288a56520")
-		(property "Reference" "#PWR055"
+		(property "Reference" "VCC_MCU"
 			(at 82.55 123.19 0)
 			(effects
 				(font
@@ -11742,7 +12008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 82.55 114.3 0)
 			(effects
 				(font
@@ -11783,7 +12049,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR055")
+					(reference "VCC_MCU")
 					(unit 1)
 				)
 			)
@@ -11946,7 +12212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b1ccdae-c5b2-4f17-b26e-cecf7b2e817a")
-		(property "Reference" "#PWR09"
+		(property "Reference" "VCC_PLL1"
 			(at 147.32 100.33 0)
 			(effects
 				(font
@@ -11955,7 +12221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL1"
 			(at 147.32 91.44 0)
 			(effects
 				(font
@@ -11996,7 +12262,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR09")
+					(reference "VCC_PLL1")
 					(unit 1)
 				)
 			)
@@ -12406,6 +12672,73 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 27.94 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "341f890f-263a-4529-8f69-5527ca6bdd39")
+		(property "Reference" "C69"
+			(at 22.352 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 22.352 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 26.9748 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 27.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42fa893f-70d1-4471-9cf8-955b24582171")
+		)
+		(pin "1"
+			(uuid "0b2a6d9b-e5f0-41af-bf01-bd377fc8a5e1")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 426.72 43.18 0)
 		(mirror x)
 		(unit 1)
@@ -12549,7 +12882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34d0a2f9-5668-47c0-9fa6-cfbf16ac713c")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "VCC_PLL2"
 			(at 349.25 137.16 0)
 			(effects
 				(font
@@ -12558,7 +12891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL2"
 			(at 349.25 128.27 0)
 			(effects
 				(font
@@ -12599,7 +12932,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR0104")
+					(reference "VCC_PLL2")
 					(unit 1)
 				)
 			)
@@ -12667,6 +13000,138 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "356ab215-12a7-4943-bdd4-3be3672127cd")
+		(property "Reference" "#PWR012"
+			(at 60.96 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9814fe28-2f86-4fce-98bf-423bcbaee7e8")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35c31687-0aa9-4a53-b3fd-775211854173")
+		(property "Reference" "#PWR05"
+			(at 39.37 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.37 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 39.37 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97d4df62-ceb1-4c52-9163-b93ef1bb9eb4")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13232,7 +13697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b4ee945-36ff-467d-a0a0-d73c0bfc5b2f")
-		(property "Reference" "#PWR087"
+		(property "Reference" "VCC_PLL2"
 			(at 297.18 57.15 0)
 			(effects
 				(font
@@ -13241,7 +13706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL2"
 			(at 297.18 48.26 0)
 			(effects
 				(font
@@ -13282,7 +13747,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR087")
+					(reference "VCC_PLL2")
 					(unit 1)
 				)
 			)
@@ -14131,7 +14596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 477.52 152.4 0)
 			(effects
 				(font
@@ -14374,6 +14839,74 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 72.39 184.15 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "47214123-d5fb-41fe-a393-6ab811031745")
+		(property "Reference" "C72"
+			(at 77.978 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 77.978 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 73.3552 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 72.39 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dea11d3d-1eff-40e7-8d56-795d8f68a09c")
+		)
+		(pin "1"
+			(uuid "78659993-5b55-4890-b9c0-2ee3ac9b0964")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -14790,7 +15323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cbf1f22-7d85-4641-9909-48bbeabbe2b7")
-		(property "Reference" "#PWR01"
+		(property "Reference" "VCC_MCU"
 			(at 119.38 48.26 0)
 			(effects
 				(font
@@ -14799,7 +15332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 119.38 39.37 0)
 			(effects
 				(font
@@ -14840,7 +15373,7 @@
 		(instances
 			(project ""
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR01")
+					(reference "VCC_MCU")
 					(unit 1)
 				)
 			)
@@ -14856,7 +15389,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d298ae8-e5f9-46ba-b353-76189dae3ad5")
-		(property "Reference" "#PWR045"
+		(property "Reference" "VCC_PLL2"
 			(at 279.4 101.6 0)
 			(effects
 				(font
@@ -14865,7 +15398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL2"
 			(at 279.4 92.71 0)
 			(effects
 				(font
@@ -14906,7 +15439,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR045")
+					(reference "VCC_PLL2")
 					(unit 1)
 				)
 			)
@@ -15249,6 +15782,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 72.39 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53c6c691-17d7-4474-a9a9-cffdf3786fbd")
+		(property "Reference" "#PWR015"
+			(at 72.39 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 72.39 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b860482e-663b-458b-9c6c-fe631087cd5b")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 311.15 133.35 0)
 		(unit 1)
@@ -15258,7 +15857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53d034a6-51ff-4090-8577-60c6bfad0262")
-		(property "Reference" "#PWR091"
+		(property "Reference" "VCC_PLL2"
 			(at 311.15 137.16 0)
 			(effects
 				(font
@@ -15267,7 +15866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL2"
 			(at 311.15 128.27 0)
 			(effects
 				(font
@@ -15308,7 +15907,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR091")
+					(reference "VCC_PLL2")
 					(unit 1)
 				)
 			)
@@ -15456,7 +16055,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55ff2689-f5fd-4593-b0af-0f7987bdad10")
 		(property "Reference" "#PWR064"
 			(at 96.52 123.19 0)
@@ -15467,12 +16065,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_VCO"
-			(at 96.52 114.3 0)
+		(property "Value" "VCC_PLL1"
+			(at 95.758 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -15605,7 +16204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 426.72 102.87 0)
 			(effects
 				(font
@@ -15738,7 +16337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 439.42 21.59 0)
 			(effects
 				(font
@@ -15853,7 +16452,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 60.96 181.61 90)
+		(at 55.88 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15861,7 +16460,7 @@
 		(dnp no)
 		(uuid "57c0497b-bd9f-4003-8777-aa8d14f76954")
 		(property "Reference" "#PWR0132"
-			(at 67.31 181.61 0)
+			(at 62.23 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15870,7 +16469,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.294 181.356 90)
+			(at 61.214 205.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15878,7 +16477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 181.61 0)
+			(at 55.88 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15887,7 +16486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 181.61 0)
+			(at 55.88 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15896,7 +16495,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 181.61 0)
+			(at 55.88 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16504,7 +17103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 477.52 102.87 0)
 			(effects
 				(font
@@ -16553,7 +17152,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 99.06 158.75 0)
+		(at 110.49 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16562,7 +17161,7 @@
 		(fields_autoplaced yes)
 		(uuid "6526ae12-2e31-42dd-b96d-14f01d184a1d")
 		(property "Reference" "BT1"
-			(at 102.87 155.6384 0)
+			(at 114.3 153.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16571,7 +17170,7 @@
 			)
 		)
 		(property "Value" "18650"
-			(at 102.87 158.1784 0)
+			(at 114.3 155.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16580,7 +17179,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_1042_1x18650"
-			(at 99.06 157.226 90)
+			(at 110.49 154.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16589,7 +17188,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 157.226 90)
+			(at 110.49 154.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16598,7 +17197,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 99.06 158.75 0)
+			(at 110.49 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16607,7 +17206,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 99.06 158.75 0)
+			(at 110.49 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16616,7 +17215,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 99.06 158.75 0)
+			(at 110.49 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16625,7 +17224,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 99.06 158.75 0)
+			(at 110.49 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16871,7 +17470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 477.52 59.69 0)
 			(effects
 				(font
@@ -16986,7 +17585,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 181.61 90)
+		(at 29.21 205.74 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16994,7 +17593,7 @@
 		(dnp no)
 		(uuid "708ef2dc-1a2d-426d-9e06-42737424e76b")
 		(property "Reference" "#PWR049"
-			(at 40.64 181.61 0)
+			(at 35.56 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17003,7 +17602,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.624 181.356 90)
+			(at 34.544 205.486 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17011,7 +17610,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 181.61 0)
+			(at 29.21 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17020,7 +17619,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 181.61 0)
+			(at 29.21 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17029,7 +17628,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 181.61 0)
+			(at 29.21 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17663,7 +18262,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 90.17 186.69 90)
+		(at 85.09 210.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17671,7 +18270,7 @@
 		(dnp no)
 		(uuid "76042b7f-249b-4654-9fa6-79559daa187b")
 		(property "Reference" "#PWR069"
-			(at 96.52 186.69 0)
+			(at 91.44 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17680,7 +18279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.504 186.436 90)
+			(at 90.424 210.566 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17688,7 +18287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 186.69 0)
+			(at 85.09 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17697,7 +18296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 186.69 0)
+			(at 85.09 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17706,7 +18305,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 90.17 186.69 0)
+			(at 85.09 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17949,7 +18548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b02a550-5c46-404e-b991-7988526beb52")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "VCC_PLL2"
 			(at 367.03 41.91 0)
 			(effects
 				(font
@@ -17958,7 +18557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL2"
 			(at 367.03 33.02 0)
 			(effects
 				(font
@@ -17999,7 +18598,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR0117")
+					(reference "VCC_PLL2")
 					(unit 1)
 				)
 			)
@@ -18025,7 +18624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 477.52 21.59 0)
 			(effects
 				(font
@@ -18074,7 +18673,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 161.29 0)
+		(at 110.49 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18083,7 +18682,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c0c7ba8-2b61-40fd-a8bb-1c281d8f83f5")
 		(property "Reference" "#PWR0122"
-			(at 99.06 167.64 0)
+			(at 110.49 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18092,7 +18691,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 166.37 0)
+			(at 110.49 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18100,7 +18699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 161.29 0)
+			(at 110.49 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18109,7 +18708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 161.29 0)
+			(at 110.49 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18118,7 +18717,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 99.06 161.29 0)
+			(at 110.49 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18352,7 +18951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7dffebe3-8b82-487a-b964-827bb70736a9")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "VCC_PLL2"
 			(at 293.37 204.47 0)
 			(effects
 				(font
@@ -18361,7 +18960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL2"
 			(at 285.75 204.4699 90)
 			(effects
 				(font
@@ -18403,7 +19002,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR0127")
+					(reference "VCC_PLL2")
 					(unit 1)
 				)
 			)
@@ -18484,7 +19083,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7edf9af5-2442-4c24-aaab-da1393956518")
 		(property "Reference" "#PWR062"
 			(at 83.82 153.67 0)
@@ -18495,12 +19093,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_VCO"
-			(at 83.82 144.78 0)
+		(property "Value" "VCC_VPLL1"
+			(at 82.042 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -18611,7 +19210,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 85.09 189.23 0)
+		(at 80.01 213.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18620,7 +19219,7 @@
 		(fields_autoplaced yes)
 		(uuid "8111c78d-45b2-4038-959b-0bd25c6fbd00")
 		(property "Reference" "J3"
-			(at 85.725 181.61 0)
+			(at 80.645 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18628,7 +19227,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 85.725 184.15 0)
+			(at 80.645 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18636,7 +19235,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 85.09 189.23 0)
+			(at 80.01 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18645,7 +19244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 189.23 0)
+			(at 80.01 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18654,7 +19253,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 85.09 189.23 0)
+			(at 80.01 213.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18830,7 +19429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83f844ea-b605-450d-9183-305bdbc02725")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "VCC_PLL1"
 			(at 170.18 204.47 0)
 			(effects
 				(font
@@ -18839,7 +19438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL1"
 			(at 162.56 204.4699 90)
 			(effects
 				(font
@@ -18881,7 +19480,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR0124")
+					(reference "VCC_PLL1")
 					(unit 1)
 				)
 			)
@@ -19354,6 +19953,73 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "903808f1-db59-40b5-87c6-d8aec8874366")
+		(property "Reference" "R25"
+			(at 77.47 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 77.47 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 77.47 177.292 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6b2450f-e42e-4106-ba41-5c9c32b16ea6")
+		)
+		(pin "2"
+			(uuid "2d0e63e5-f311-436f-a6d8-d3fdf1bd2710")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -20153,7 +20819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 439.42 59.69 0)
 			(effects
 				(font
@@ -20211,7 +20877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d7d6e7c-a895-42a3-ab87-d72fb6973210")
-		(property "Reference" "#PWR018"
+		(property "Reference" "VCC_PLL1"
 			(at 233.68 105.41 0)
 			(effects
 				(font
@@ -20220,7 +20886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_VCO"
+		(property "Value" "VCC_PLL1"
 			(at 236.22 100.3299 0)
 			(effects
 				(font
@@ -20262,7 +20928,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR018")
+					(reference "VCC_PLL1")
 					(unit 1)
 				)
 			)
@@ -20336,6 +21002,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 39.37 184.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dd93e91-f7ea-49ed-87db-2f9daf3e1bfd")
+		(property "Reference" "C70"
+			(at 34.29 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 34.29 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 38.4048 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 39.37 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38a325ad-cc46-409f-89ab-f557f0494eb2")
+		)
+		(pin "1"
+			(uuid "b7971483-19ce-42f8-9c6a-84c51bd8be38")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 426.72 157.48 0)
 		(mirror y)
@@ -20355,7 +21088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 426.72 152.4 0)
 			(effects
 				(font
@@ -20803,6 +21536,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:MCP1700x-330xxMB")
+		(at 49.53 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abb5e987-e9a5-4be8-af4a-c5675e799c3e")
+		(property "Reference" "U6"
+			(at 49.53 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD1117DT33"
+			(at 49.53 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 49.53 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ld1117.pdf"
+			(at 49.53 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "250mA Low Quiscent Current LDO, 3.3V output, SOT-89"
+			(at 49.53 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "577d34b6-4ba6-4b32-9a69-ae5852ad9d5c")
+		)
+		(pin "3"
+			(uuid "d2e3f418-48ec-499e-b2fc-652c9b427a8f")
+		)
+		(pin "2"
+			(uuid "26d7e1df-e54f-47ef-b3d3-567037de24b3")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 229.87 90.17 90)
 		(unit 1)
@@ -20880,7 +21684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac7e0b2e-0c6c-4cd5-a1e3-d1bfbf8fe10c")
-		(property "Reference" "#PWR031"
+		(property "Reference" "VCC_PLL1"
 			(at 234.95 40.64 0)
 			(effects
 				(font
@@ -20889,7 +21693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL1"
 			(at 234.95 31.75 0)
 			(effects
 				(font
@@ -20930,7 +21734,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR031")
+					(reference "VCC_PLL1")
 					(unit 1)
 				)
 			)
@@ -20947,7 +21751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae89278d-edcb-4d51-8e59-1287a9237408")
-		(property "Reference" "#PWR070"
+		(property "Reference" "VCC_MCU"
 			(at 288.29 86.36 0)
 			(effects
 				(font
@@ -20956,7 +21760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 288.29 77.47 0)
 			(effects
 				(font
@@ -20997,7 +21801,72 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR070")
+					(reference "VCC_MCU")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 83.82 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aec42e79-a4e0-42e1-9775-2109bdf52861")
+		(property "Reference" "#PWR018"
+			(at 83.82 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC_VPLL2"
+			(at 86.868 172.974 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 83.82 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e145a8a4-18e8-458a-9bb3-230f63d7c24b")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -21013,7 +21882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aff1a854-094e-46d8-ae33-afecd8d5b5ba")
-		(property "Reference" "#PWR05"
+		(property "Reference" "VCC_MCU"
 			(at 99.06 69.85 0)
 			(effects
 				(font
@@ -21022,7 +21891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 99.06 60.96 0)
 			(effects
 				(font
@@ -21063,7 +21932,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR05")
+					(reference "VCC_MCU")
 					(unit 1)
 				)
 			)
@@ -21484,7 +22353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc08b0fb-d8ea-4934-82b9-d3a6942e4f34")
-		(property "Reference" "#PWR015"
+		(property "Reference" "VCC_PLL1"
 			(at 217.17 135.89 0)
 			(effects
 				(font
@@ -21493,7 +22362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL1"
 			(at 217.17 127 0)
 			(effects
 				(font
@@ -21534,7 +22403,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR015")
+					(reference "VCC_PLL1")
 					(unit 1)
 				)
 			)
@@ -21551,7 +22420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd1209e0-7715-4f1d-b7ee-3cd17573c568")
-		(property "Reference" "#PWR084"
+		(property "Reference" "VCC_MCU"
 			(at 156.21 85.09 0)
 			(effects
 				(font
@@ -21560,7 +22429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 156.21 76.2 0)
 			(effects
 				(font
@@ -21601,7 +22470,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR084")
+					(reference "VCC_MCU")
 					(unit 1)
 				)
 			)
@@ -22687,6 +23556,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 49.53 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb01a1e6-1b56-4ca9-a69f-5b4898e69a0e")
+		(property "Reference" "#PWR09"
+			(at 49.53 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 49.53 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa8de315-4480-4ec6-9b27-97b6e58b289f")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 337.82 139.7 0)
 		(mirror x)
@@ -22764,7 +23699,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd21d8ef-d071-499e-8fff-bc9cd256afdc")
-		(property "Reference" "#PWR040"
+		(property "Reference" "VCC_MCU"
 			(at 30.48 38.1 0)
 			(effects
 				(font
@@ -22773,7 +23708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_MCU"
 			(at 30.48 29.21 0)
 			(effects
 				(font
@@ -22814,7 +23749,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR040")
+					(reference "VCC_MCU")
 					(unit 1)
 				)
 			)
@@ -23283,7 +24218,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 29.21 186.69 0)
+		(at 24.13 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23292,7 +24227,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4075f93-773f-45a1-9075-b074f6d2cfed")
 		(property "Reference" "J2"
-			(at 29.845 176.53 0)
+			(at 24.765 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23300,7 +24235,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 29.845 179.07 0)
+			(at 24.765 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23308,7 +24243,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 29.21 186.69 0)
+			(at 24.13 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23317,7 +24252,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 186.69 0)
+			(at 24.13 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23326,7 +24261,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 29.21 186.69 0)
+			(at 24.13 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23589,7 +24524,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 55.88 186.69 0)
+		(at 50.8 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23598,7 +24533,7 @@
 		(fields_autoplaced yes)
 		(uuid "d76645dd-1c12-423c-8eb0-20dec155b2a7")
 		(property "Reference" "J1"
-			(at 56.515 176.53 0)
+			(at 51.435 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23606,7 +24541,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05_Pin"
-			(at 56.515 179.07 0)
+			(at 51.435 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23614,7 +24549,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 55.88 186.69 0)
+			(at 50.8 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23623,7 +24558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 186.69 0)
+			(at 50.8 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23632,7 +24567,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 55.88 186.69 0)
+			(at 50.8 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23726,6 +24661,72 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 27.94 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8a4ab98-2cd8-4e58-995f-df9a24ad99ba")
+		(property "Reference" "#PWR01"
+			(at 27.94 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 27.94 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ed138ac4-4f64-460d-8a76-b901fc9ad6f2")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -24305,7 +25306,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 99.06 152.4 0)
+		(at 110.49 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24314,7 +25315,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0460ee4-4453-4fbc-9ab3-178b3639f335")
 		(property "Reference" "#PWR0131"
-			(at 99.06 156.21 0)
+			(at 110.49 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24323,7 +25324,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 99.06 147.32 0)
+			(at 110.49 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24331,7 +25332,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 152.4 0)
+			(at 110.49 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24340,7 +25341,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 152.4 0)
+			(at 110.49 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24349,7 +25350,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 99.06 152.4 0)
+			(at 110.49 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24574,6 +25575,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 88.9 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "e65f947a-aea3-4bf2-9fa7-0f2d5bb9a7c8")
+		(property "Reference" "R26"
+			(at 88.9 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 88.9 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 88.9 129.032 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cdc1696-965b-453c-9bd8-6345374789c8")
+		)
+		(pin "2"
+			(uuid "f2aa9e2d-e9db-412a-9539-fd27bd311530")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 222.25 107.95 0)
 		(mirror x)
@@ -24651,7 +25719,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e823b3a7-e6d5-45dc-b551-c8b818e4b1d7")
-		(property "Reference" "#PWR012"
+		(property "Reference" "VCC_PLL1"
 			(at 179.07 135.89 0)
 			(effects
 				(font
@@ -24660,7 +25728,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_D"
+		(property "Value" "VCC_PLL1"
 			(at 179.07 127 0)
 			(effects
 				(font
@@ -24701,7 +25769,7 @@
 		(instances
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "#PWR012")
+					(reference "VCC_PLL1")
 					(unit 1)
 				)
 			)
@@ -25513,6 +26581,74 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 184.15 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1d499cb-827b-48ee-b115-a71d4beb5abf")
+		(property "Reference" "C71"
+			(at 66.04 183.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 66.04 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 61.9252 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 60.96 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a901f4e1-948e-40b6-b456-536d85dc910a")
+		)
+		(pin "1"
+			(uuid "1d0c3c54-09e6-4ebf-b51b-409d8e09f258")
+		)
+		(instances
+			(project "Sat_beacon"
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "C71")
 					(unit 1)
 				)
 			)
