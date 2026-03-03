@@ -1,2 +1,4 @@
-./Software/Drivers/*
 ./Sat_beacon-backups/*
+./Software/Drivers/*
+./Software/Debug/*
+./Software/.settings/*
