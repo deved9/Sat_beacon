@@ -27,6 +27,7 @@ extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
+#include "stm32c0xx_hal.h"
 #include "stm32c0xx_ll_rcc.h"
 #include "stm32c0xx_ll_bus.h"
 #include "stm32c0xx_ll_system.h"
@@ -36,10 +37,6 @@ extern "C" {
 #include "stm32c0xx_ll_pwr.h"
 #include "stm32c0xx_ll_dma.h"
 #include "stm32c0xx_ll_gpio.h"
-
-#if defined(USE_FULL_ASSERT)
-#include "stm32_assert.h"
-#endif /* USE_FULL_ASSERT */
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -69,10 +66,10 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define PLL_LED_2_Pin LL_GPIO_PIN_2
-#define PLL_LED_2_GPIO_Port GPIOA
-#define PLL_LED_1_Pin LL_GPIO_PIN_3
+#define PLL_LED_1_Pin LL_GPIO_PIN_2
 #define PLL_LED_1_GPIO_Port GPIOA
+#define PLL_LED_2_Pin LL_GPIO_PIN_3
+#define PLL_LED_2_GPIO_Port GPIOA
 #define PLL_CE_2_Pin LL_GPIO_PIN_7
 #define PLL_CE_2_GPIO_Port GPIOA
 #define PLL_LE_2_Pin LL_GPIO_PIN_0
@@ -81,7 +78,9 @@ void Error_Handler(void);
 #define PLL_DATA_2_GPIO_Port GPIOB
 #define PLL_CLK_2_Pin LL_GPIO_PIN_2
 #define PLL_CLK_2_GPIO_Port GPIOB
-#define PLL_RF_EN_2_Pin LL_GPIO_PIN_10
+#define PLL_MUXout_2_Pin LL_GPIO_PIN_10
+#define PLL_MUXout_2_GPIO_Port GPIOB
+#define PLL_RF_EN_2_Pin LL_GPIO_PIN_11
 #define PLL_RF_EN_2_GPIO_Port GPIOB
 #define PLL_CE_1_Pin LL_GPIO_PIN_14
 #define PLL_CE_1_GPIO_Port GPIOB
@@ -91,7 +90,9 @@ void Error_Handler(void);
 #define PLL_DATA_1_GPIO_Port GPIOA
 #define PLL_CLK_1_Pin LL_GPIO_PIN_9
 #define PLL_CLK_1_GPIO_Port GPIOA
-#define PLL_RF_EN_1_Pin LL_GPIO_PIN_6
+#define PLL_MUXout_1_Pin LL_GPIO_PIN_6
+#define PLL_MUXout_1_GPIO_Port GPIOC
+#define PLL_RF_EN_1_Pin LL_GPIO_PIN_7
 #define PLL_RF_EN_1_GPIO_Port GPIOC
 #define PLL_TOGGLE_2_Pin LL_GPIO_PIN_0
 #define PLL_TOGGLE_2_GPIO_Port GPIOD
@@ -101,18 +102,6 @@ void Error_Handler(void);
 #define PLL_TOGGLE_1_GPIO_Port GPIOB
 #define PLL_BTN_1_Pin LL_GPIO_PIN_8
 #define PLL_BTN_1_GPIO_Port GPIOB
-#ifndef NVIC_PRIORITYGROUP_0
-#define NVIC_PRIORITYGROUP_0         ((uint32_t)0x00000007) /*!< 0 bit  for pre-emption priority,
-                                                                 4 bits for subpriority */
-#define NVIC_PRIORITYGROUP_1         ((uint32_t)0x00000006) /*!< 1 bit  for pre-emption priority,
-                                                                 3 bits for subpriority */
-#define NVIC_PRIORITYGROUP_2         ((uint32_t)0x00000005) /*!< 2 bits for pre-emption priority,
-                                                                 2 bits for subpriority */
-#define NVIC_PRIORITYGROUP_3         ((uint32_t)0x00000004) /*!< 3 bits for pre-emption priority,
-                                                                 1 bit  for subpriority */
-#define NVIC_PRIORITYGROUP_4         ((uint32_t)0x00000003) /*!< 4 bits for pre-emption priority,
-                                                                 0 bit  for subpriority */
-#endif
 
 /* USER CODE BEGIN Private defines */
 

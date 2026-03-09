@@ -5405,6 +5405,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 252.73) (xy 95.25 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "122cd52b-a43d-4a82-9de5-5e1a2027ffcc")
+	)
+	(wire
+		(pts
 			(xy 198.12 39.37) (xy 200.66 39.37)
 		)
 		(stroke
@@ -5542,6 +5552,16 @@
 			(type default)
 		)
 		(uuid "1b5bcff7-ed24-4383-a6f7-64ee22eea39d")
+	)
+	(wire
+		(pts
+			(xy 327.66 52.07) (xy 327.66 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9b4038-9a4b-4dd6-89f9-0cfef71d7b3e")
 	)
 	(wire
 		(pts
@@ -6282,6 +6302,16 @@
 			(type default)
 		)
 		(uuid "59427f4f-9be8-4b56-91d0-dbf5811f78a4")
+	)
+	(wire
+		(pts
+			(xy 176.53 50.8) (xy 195.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598fc687-93e1-41be-b8c0-42a9c2bc13b1")
 	)
 	(wire
 		(pts
@@ -7285,6 +7315,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 214.63) (xy 55.88 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a7d4ff-c538-4796-8673-348413ca99a4")
+	)
+	(wire
+		(pts
 			(xy 55.88 127) (xy 68.58 127)
 		)
 		(stroke
@@ -8215,6 +8255,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 50.8) (xy 195.58 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bbae2b-25e1-4d40-a38a-7f09502e9068")
+	)
+	(wire
+		(pts
 			(xy 317.5 184.15) (xy 325.12 184.15)
 		)
 		(stroke
@@ -8252,6 +8302,16 @@
 			(type default)
 		)
 		(uuid "ec8d69f6-3f0f-40d2-b1a4-8653232e5d92")
+	)
+	(wire
+		(pts
+			(xy 308.61 52.07) (xy 327.66 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec946de9-1fb9-4812-a4b9-1dc269d52bb2")
 	)
 	(wire
 		(pts
@@ -8573,7 +8633,7 @@
 		)
 		(uuid "216800e2-a969-4465-8ab4-4110fa5d6062")
 	)
-	(label "PLL_LED_1"
+	(label "PLL_LED_2"
 		(at 449.58 135.89 0)
 		(effects
 			(font
@@ -8813,6 +8873,16 @@
 		)
 		(uuid "707231d1-2d5c-4a5a-8c1c-38a68c170603")
 	)
+	(label "PLL_RF_EN_1"
+		(at 41.91 214.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "710e1eaa-cdde-40f1-bd0a-666134fd8985")
+	)
 	(label "VTUNE_1"
 		(at 218.44 95.25 0)
 		(effects
@@ -8823,7 +8893,7 @@
 		)
 		(uuid "7138cc36-5550-4479-a672-1b75cd1f1bb6")
 	)
-	(label "PLL_LED_2"
+	(label "PLL_LED_1"
 		(at 449.58 185.42 0)
 		(effects
 			(font
@@ -9053,7 +9123,7 @@
 		)
 		(uuid "d06ab866-de74-4669-b27c-df7808f536cf")
 	)
-	(label "PLL_LED_1"
+	(label "PLL_LED_2"
 		(at 95.25 189.23 180)
 		(effects
 			(font
@@ -9063,7 +9133,7 @@
 		)
 		(uuid "d1fde6bc-1d61-47a0-b346-12cd6d46a7ff")
 	)
-	(label "PLL_RF_EN_2"
+	(label "PLL_MUXout_2"
 		(at 95.25 250.19 180)
 		(effects
 			(font
@@ -9093,7 +9163,7 @@
 		)
 		(uuid "e09add76-a651-4f27-9739-69d919742a16")
 	)
-	(label "PLL_LED_2"
+	(label "PLL_LED_1"
 		(at 95.25 186.69 180)
 		(effects
 			(font
@@ -9123,7 +9193,7 @@
 		)
 		(uuid "e91f05bb-414f-423c-9126-b666064dc97d")
 	)
-	(label "PLL_CE_1"
+	(label "PLL_MUXout_1"
 		(at 41.91 212.09 0)
 		(effects
 			(font
@@ -9142,6 +9212,26 @@
 			(justify left bottom)
 		)
 		(uuid "ee35db1f-6ff2-42a9-ad20-dd69c90efcf0")
+	)
+	(label "PLL_RF_EN_2"
+		(at 95.25 252.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eebbb2f3-e7e7-473b-b278-857cdf68b4a5")
+	)
+	(label "PLL_MUXOUT_2"
+		(at 308.61 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f21d46b1-c539-48c4-b25e-165b73cfe479")
 	)
 	(label "PLL_CLK_1"
 		(at 95.25 204.47 180)
@@ -9172,6 +9262,16 @@
 			(justify left bottom)
 		)
 		(uuid "f39be781-7ae7-42a0-ad1c-e3d9b61f2aed")
+	)
+	(label "PLL_MUXOUT_1"
+		(at 176.53 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f64c7b91-9ad3-4895-aa9d-6c135d255f5e")
 	)
 	(label "PLL_CE_2"
 		(at 300.99 93.98 0)
