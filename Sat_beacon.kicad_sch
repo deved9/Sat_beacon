@@ -165,7 +165,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
+		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -181,8 +181,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -207,7 +207,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
+			(property "Description" "Generic connector, single row, 01x04, script generated"
 				(at 0 0 0)
 				(effects
 					(font
@@ -242,7 +242,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_Pin_1_1"
+			(symbol "Conn_01x04_Pin_1_1"
 				(rectangle
 					(start 0.8636 2.667)
 					(end 0 2.413)
@@ -268,6 +268,17 @@
 				(rectangle
 					(start 0.8636 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -303,6 +314,18 @@
 				(polyline
 					(pts
 						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -359,6 +382,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5505,6 +5546,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 132.08) (xy 96.52 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18d7baa1-ec49-4f7e-9b30-64b16075705b")
+	)
+	(wire
+		(pts
 			(xy 295.91 101.6) (xy 295.91 123.19)
 		)
 		(stroke
@@ -5825,16 +5876,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 129.54) (xy 97.79 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31386801-fa55-4c5f-abc7-56a581a0f46f")
-	)
-	(wire
-		(pts
 			(xy 439.42 73.66) (xy 439.42 74.93)
 		)
 		(stroke
@@ -6005,6 +6046,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 129.54) (xy 96.52 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f61b857-f701-4908-bc9c-8796db6aaea3")
+	)
+	(wire
+		(pts
 			(xy 55.88 132.08) (xy 68.58 132.08)
 		)
 		(stroke
@@ -6105,6 +6156,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 127) (xy 96.52 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4747656b-4a5b-4b9b-a569-e600cb4b9cf1")
+	)
+	(wire
+		(pts
 			(xy 276.86 123.19) (xy 281.94 123.19)
 		)
 		(stroke
@@ -6192,6 +6253,16 @@
 			(type default)
 		)
 		(uuid "520e8fa1-e40e-47ca-aeec-8966d6941c26")
+	)
+	(wire
+		(pts
+			(xy 41.91 191.77) (xy 55.88 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b50f30-bbaf-4d89-96a8-b80b36435e6c")
 	)
 	(wire
 		(pts
@@ -6882,6 +6953,16 @@
 			(type default)
 		)
 		(uuid "88ec6c8b-a9bf-4283-99c6-30e3bf45b06c")
+	)
+	(wire
+		(pts
+			(xy 41.91 199.39) (xy 55.88 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89798e0a-5b25-4657-b388-15c2fb08d338")
 	)
 	(wire
 		(pts
@@ -7765,16 +7846,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 199.39) (xy 55.88 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6b9b3ca-ea4b-4a3e-934c-c0c4d99b49a7")
-	)
-	(wire
-		(pts
 			(xy 156.21 88.9) (xy 156.21 90.17)
 		)
 		(stroke
@@ -7802,16 +7873,6 @@
 			(type default)
 		)
 		(uuid "c8cc49fb-ef42-41e4-a6ac-22daf0642a62")
-	)
-	(wire
-		(pts
-			(xy 85.09 132.08) (xy 97.79 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8d38ae1-2606-474c-befc-e1649a66ef43")
 	)
 	(wire
 		(pts
@@ -8663,15 +8724,15 @@
 		)
 		(uuid "2a5245c9-224f-4376-9b01-1884da029166")
 	)
-	(label "SWDCLK"
-		(at 91.44 132.08 0)
+	(label "NRST"
+		(at 41.91 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3014cda7-1859-433a-b64f-a515cbc67427")
+		(uuid "3139845b-51d6-4763-b0f8-1ec9c575a218")
 	)
 	(label "PLL_CLK_2"
 		(at 95.25 229.87 180)
@@ -8723,6 +8784,16 @@
 		)
 		(uuid "3f130d33-597e-4f4f-b12c-d7d1929218df")
 	)
+	(label "SWDIO"
+		(at 90.17 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f1bd78a-5379-4a20-9396-75fd50b1dccb")
+	)
 	(label "PLL_LE_2"
 		(at 300.99 91.44 0)
 		(effects
@@ -8742,16 +8813,6 @@
 			(justify left bottom)
 		)
 		(uuid "409960b1-2b25-42c5-b266-748e11c10ce5")
-	)
-	(label "PLL_TOGGLE_2"
-		(at 41.91 199.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c4320d6-c840-4f5a-a6f6-65e032d3a42c")
 	)
 	(label "PLL_LE_1"
 		(at 168.91 90.17 0)
@@ -8803,6 +8864,16 @@
 		)
 		(uuid "5a3e934f-d760-4129-8be5-a11400420b47")
 	)
+	(label "PLL_TOGGLE_2"
+		(at 41.91 199.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5fc00280-4511-47e6-b434-4f514397871f")
+	)
 	(label "PLL_BTN_1"
 		(at 422.91 36.83 0)
 		(effects
@@ -8832,16 +8903,6 @@
 			(justify left bottom)
 		)
 		(uuid "65bd0de4-6549-4d9b-afa4-7f80e225f191")
-	)
-	(label "SWDIO"
-		(at 91.44 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6d276f6e-b65f-4595-b4bb-836f1c5c30ca")
 	)
 	(label "VTUNE_2"
 		(at 257.81 123.19 0)
@@ -9073,6 +9134,16 @@
 		)
 		(uuid "c230baf9-7cc9-4bad-be83-013152b8c643")
 	)
+	(label "SWDCLK"
+		(at 90.17 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c86a3100-306d-42ed-aabd-57d7ffc8ddf7")
+	)
 	(label "RF1_DC_N"
 		(at 168.91 180.34 180)
 		(effects
@@ -9282,6 +9353,16 @@
 			(justify left bottom)
 		)
 		(uuid "f6afc334-42d2-428f-8871-ffcc5a316032")
+	)
+	(label "NRST"
+		(at 90.17 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "face8b91-f470-45e1-9c05-582aa0d1c218")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9549,6 +9630,80 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 78.74 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02596184-aac4-4ec2-b826-474aa6e98df0")
+		(property "Reference" "J6"
+			(at 79.375 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 79.375 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 78.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "722192e2-d199-49d4-97b7-ff539ce5c7cf")
+		)
+		(pin "4"
+			(uuid "ac7207c5-9ab3-4951-8a7e-172dd3a401c6")
+		)
+		(pin "1"
+			(uuid "531ebbd7-1413-4870-8d23-fb425e306600")
+		)
+		(pin "2"
+			(uuid "48b0acd6-d755-4878-aa5d-3b456389f460")
+		)
+		(instances
+			(project ""
+				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -18268,7 +18423,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 127 90)
+		(at 83.82 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18276,7 +18431,7 @@
 		(dnp no)
 		(uuid "76042b7f-249b-4654-9fa6-79559daa187b")
 		(property "Reference" "#PWR069"
-			(at 91.44 127 0)
+			(at 90.17 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18285,15 +18440,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.424 126.746 90)
+			(at 89.154 124.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 127 0)
+			(at 83.82 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18302,7 +18458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 127 0)
+			(at 83.82 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18311,7 +18467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 127 0)
+			(at 83.82 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19142,77 +19298,6 @@
 			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 80.01 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8111c78d-45b2-4038-959b-0bd25c6fbd00")
-		(property "Reference" "J3"
-			(at 80.645 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 80.645 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 80.01 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 80.01 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 80.01 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79c77eec-0e23-46d9-b5da-87b0ec13504f")
-		)
-		(pin "3"
-			(uuid "51a84fc7-460c-4a92-81e0-ff70af416ab9")
-		)
-		(pin "2"
-			(uuid "0b6b8057-f94f-48ce-9cce-a898868191d4")
-		)
-		(instances
-			(project "Sat_beacon"
-				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
-					(reference "J3")
 					(unit 1)
 				)
 			)
