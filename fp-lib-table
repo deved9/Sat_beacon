@@ -4,4 +4,5 @@
   (lib (name "PLL_TI")(type "KiCad")(uri "${KIPRJMOD}/libs/LMX2581ESQE")(options "")(descr ""))
   (lib (name "STM32")(type "KiCad")(uri "${KIPRJMOD}/libs/STM32C011F6P6")(options "")(descr ""))
   (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/libs/Library.pretty")(options "")(descr ""))
+  (lib (name "Switch_sideways")(type "KiCad")(uri "${KIPRJMOD}/libs/Switch_sideways.pretty")(options "")(descr ""))
 )

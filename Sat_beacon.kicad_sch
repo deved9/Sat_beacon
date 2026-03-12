@@ -8694,7 +8694,7 @@
 		)
 		(uuid "216800e2-a969-4465-8ab4-4110fa5d6062")
 	)
-	(label "PLL_LED_2"
+	(label "PLL_LED_1"
 		(at 449.58 135.89 0)
 		(effects
 			(font
@@ -8954,7 +8954,7 @@
 		)
 		(uuid "7138cc36-5550-4479-a672-1b75cd1f1bb6")
 	)
-	(label "PLL_LED_1"
+	(label "PLL_LED_2"
 		(at 449.58 185.42 0)
 		(effects
 			(font
@@ -22182,7 +22182,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "100R"
 			(at 336.55 36.83 90)
 			(effects
 				(font
@@ -23665,7 +23665,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "100R"
 			(at 204.47 35.56 90)
 			(effects
 				(font
@@ -26031,7 +26031,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPDT_312"
+		(property "Value" "B1407"
 			(at 26.67 34.29 0)
 			(effects
 				(font
@@ -26039,7 +26039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Switch_sideways:B1407"
 			(at 26.67 36.83 0)
 			(effects
 				(font

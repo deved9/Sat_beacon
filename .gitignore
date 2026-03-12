@@ -1,4 +1,7 @@
-./Sat_beacon-backups/*
+# KiCad backups
+*-backup.*
+*.zip
+
 ./Software/Drivers/
 ./Software/Debug/
 ./Software/.settings/*
