@@ -9701,7 +9701,7 @@
 			(uuid "48b0acd6-d755-4878-aa5d-3b456389f460")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "J6")
 					(unit 1)
@@ -10866,7 +10866,7 @@
 			(uuid "fc893d33-60a5-423c-ba5f-eb4afabf3c15")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "U4")
 					(unit 1)
@@ -11270,7 +11270,7 @@
 			(uuid "6c7aa80f-79de-4ac6-80e5-0cc404b10637")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "C1")
 					(unit 1)
@@ -11605,7 +11605,7 @@
 			(uuid "b3ec7756-92d9-418d-8b8f-ef0798adc439")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "R3")
 					(unit 1)
@@ -11672,7 +11672,7 @@
 			(uuid "e711b190-9b9d-4be6-8e65-92b66ad2306c")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "#PWR06")
 					(unit 1)
@@ -11806,7 +11806,7 @@
 			(uuid "1bc3fe38-d65e-40c4-9f81-99170ac49806")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "R1")
 					(unit 1)
@@ -11872,7 +11872,7 @@
 			(uuid "d0dc8bd5-103e-4d2c-87d1-c4e5f42e1834")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "#PWR02")
 					(unit 1)
@@ -12008,7 +12008,7 @@
 			(uuid "ad2e64c0-8f82-4321-a9d8-d59fb9ee12e8")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "R4")
 					(unit 1)
@@ -13638,7 +13638,7 @@
 			(uuid "90784982-1bd2-46c1-bcca-4c9308a363f2")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "IC1")
 					(unit 1)
@@ -14459,7 +14459,7 @@
 			(uuid "3caf7ff2-e21e-4813-bcc1-fba36fbb3ad2")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "J4")
 					(unit 1)
@@ -15600,7 +15600,7 @@
 			(uuid "92c8f0f8-3577-4eca-ad4f-cedc528c506c")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "#VCC_MCU0103")
 					(unit 1)
@@ -16620,7 +16620,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "57b6c53d-2bea-4bab-a4c5-976bcd673c10")
 		(property "Reference" "#PWR056"
 			(at 35.56 26.67 0)
@@ -16631,12 +16630,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC_CHARGER"
-			(at 35.56 17.78 0)
+		(property "Value" "+BATT"
+			(at 32.258 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -17467,7 +17467,7 @@
 			(uuid "fba329bd-554e-4bfc-afd7-da004035611e")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "BT1")
 					(unit 1)
@@ -18558,7 +18558,7 @@
 			(uuid "aca11472-bf16-46b5-ba3d-267648638222")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "D1")
 					(unit 1)
@@ -19368,7 +19368,7 @@
 			(uuid "97d2cc5d-1885-46ab-be26-d888f9900f06")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "Y1")
 					(unit 1)
@@ -19434,7 +19434,7 @@
 			(uuid "019a0745-3e0a-4ffb-9906-194e7041c1c4")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "#PWR044")
 					(unit 1)
@@ -19777,7 +19777,7 @@
 			(uuid "d9b0c4d3-1e15-41ab-b3cb-26ad8b5514aa")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "U7")
 					(unit 1)
@@ -21019,7 +21019,7 @@
 			(uuid "f2338778-8621-4321-8d48-ea23c61e5034")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "U2")
 					(unit 1)
@@ -21553,7 +21553,7 @@
 			(uuid "cb4d5afb-ddba-41b7-8271-a53dc79a47bb")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "#PWR050")
 					(unit 1)
@@ -24246,7 +24246,7 @@
 			(uuid "99552cb8-d546-4f52-a806-b2377c3e5594")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "#PWR07")
 					(unit 1)
@@ -24550,7 +24550,7 @@
 			(uuid "b3944a13-eb8a-46b5-854d-a133fb349b46")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "Q1")
 					(unit 1)
@@ -26039,7 +26039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Switch_sideways:B1407"
+		(property "Footprint" "Switch_sideways:flip_switch"
 			(at 26.67 36.83 0)
 			(effects
 				(font
@@ -26076,7 +26076,7 @@
 			(uuid "f45573eb-4eaa-43b4-8182-95aedce8f06d")
 		)
 		(instances
-			(project ""
+			(project "Sat_beacon"
 				(path "/d50b57a8-fbd1-4b9f-a519-640b54fbccac"
 					(reference "SW1")
 					(unit 1)
