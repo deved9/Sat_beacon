@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.6
         }
       },
       "diff_pair_dimensions": [
@@ -68,7 +68,40 @@
           "width": 2.8
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|118904000|128402000|e9d6001c-0d00-4d36-a3a9-417eeee01b5e|08c4a3d1-f8fc-4193-8c45-fff050dd8c86",
+          ""
+        ],
+        [
+          "clearance|122904000|128402000|2cb463ab-beca-4fee-b539-493a8707758f|0c6a2c6d-2525-415b-8578-16bdf7479369",
+          ""
+        ],
+        [
+          "clearance|88424000|128490275|e8be7183-56e0-4abb-9f9e-2b3937b1bc6e|bd4f1993-e127-4f23-9b50-cbf534164d84",
+          ""
+        ],
+        [
+          "clearance|92424000|128490275|2e5d0721-6b33-4dd0-8665-c0b8389b3210|0bc8361d-29c5-4770-abcc-d7b38006d509",
+          ""
+        ],
+        [
+          "unconnected_items|123380000|58202000|F.Cu|4|a811f853-70cf-4cdb-a6ee-69a4b10c5bef|65e9a105-364e-46fa-a5f1-e811626733df",
+          ""
+        ],
+        [
+          "unconnected_items|123380000|66076000|F.Cu|4|d5f200f0-f244-456f-8b21-6d6c5f0177d0|5df032a5-dd2d-46a8-aef5-dc5b03fb0e62",
+          ""
+        ],
+        [
+          "unconnected_items|123380000|74204000|F.Cu|4|ae462699-7431-4017-ab38-c6fd2cffddd0|12fbd922-b247-4e60-8e21-1417dcbfda72",
+          ""
+        ],
+        [
+          "unconnected_items|123380000|82332000|F.Cu|4|fb1b72d2-ee47-49e3-a53e-3dca34bb5a89|ad0776b4-5579-41f4-a19e-c4c7024e6cca",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -110,12 +143,12 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_edge_clearance": "ignore",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",

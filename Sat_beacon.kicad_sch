@@ -7440,16 +7440,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 204.47) (xy 99.06 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9acc8e13-71f0-46c8-87c7-3fed991b1644")
-	)
-	(wire
-		(pts
 			(xy 293.37 124.46) (xy 293.37 123.19)
 		)
 		(stroke
@@ -9288,16 +9278,6 @@
 		)
 		(uuid "aa6243b7-7712-421e-bd64-a3d8dedeb1ba")
 	)
-	(label "PLL_MUXOUT_1"
-		(at 85.09 204.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "afd2f2a9-e1e9-42de-b0cf-c9cf14202864")
-	)
 	(label "LD_2"
 		(at 405.13 185.42 0)
 		(effects
@@ -9308,7 +9288,7 @@
 		)
 		(uuid "b8808a66-a085-49ce-8246-16deb69e0ae9")
 	)
-	(label "PLL_MUXOUT_2"
+	(label "PLL_MUXOUT"
 		(at 85.09 250.19 0)
 		(effects
 			(font
@@ -9448,7 +9428,7 @@
 		)
 		(uuid "ee35db1f-6ff2-42a9-ad20-dd69c90efcf0")
 	)
-	(label "PLL_MUXOUT_2"
+	(label "PLL_MUXOUT"
 		(at 308.61 52.07 0)
 		(effects
 			(font
@@ -9478,7 +9458,7 @@
 		)
 		(uuid "f39be781-7ae7-42a0-ad1c-e3d9b61f2aed")
 	)
-	(label "PLL_MUXOUT_1"
+	(label "PLL_MUXOUT"
 		(at 176.53 50.8 0)
 		(effects
 			(font
