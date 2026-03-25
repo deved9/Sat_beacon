@@ -12493,7 +12493,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMCX"
+		(property "Value" "SMA"
 			(at 374.65 186.9831 0)
 			(effects
 				(font
@@ -12502,7 +12502,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:MMCX-J-P-X-ST-EM1"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 370.84 185.42 0)
 			(effects
 				(font
@@ -14611,7 +14611,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMCX"
+		(property "Value" "SMA"
 			(at 251.46 186.9831 0)
 			(effects
 				(font
@@ -14620,7 +14620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:MMCX-J-P-X-ST-EM1"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 247.65 185.42 0)
 			(effects
 				(font
