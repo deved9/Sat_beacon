@@ -8,10 +8,12 @@
 #ifndef INC_LMX2581_CONFIG_H_
 #define INC_LMX2581_CONFIG_H_
 
-/* Registers
- **************************************/
+// Description: Register values needed for setup of LMX2581 PLL. In case of more than one PLLs on PCB, this can serve as common setup and minor changes can be
+//// edited afterwards.
 
-// NOTE: values of register area can be edited unless marked as "x" or "A" (address)
+// NOTE: values of register area can be edited unless marked as "x" or "A" (address).
+// For correct functionality, leave PLL_DEN, PLL_NUM, PLL_R and PLL_N as zeros.
+
 // Bits are sorted from MSB to LSB (address), load into the register by MSB first
 
   // R0
@@ -21,18 +23,16 @@
   //// PLL_N          12b
   //// PLL_NUM        12b
   //// A               4b
-
   #define R0 0b00000000000000000000000000000000
 
 
   // R1
   //// CPG 			   5b
   //// VCO_SEL         2b
-  //// PLL_NUM        10b  (High 10 bit)
+  //// PLL_NUM(x)     10b  (High 10 bit)
   //// FRAC_ORDER      3b
-  //// PLL_R           8b
+  //// PLL_R(x)        8b
   //// A               4b
-
   #define R1 0b00000000000000000000000000000001
 
 
@@ -42,9 +42,8 @@
   //// x			   1b
   //// CPP             1b
   //// x               1b
-  //// PLL_DEN        22b
+  //// PLL_DEN(x)     22b
   //// A               4b
-
   #define R2 0b00000100000000000000000000000010
 
 
@@ -56,7 +55,6 @@
   //// OUTB_PD         1b
   //// OUTA_PD         1b
   //// A               4b
-
   #define R3 0b00100000000000000000000000000011
 
   // R4
@@ -67,7 +65,6 @@
   //// x               1b
   //// CPG_BLEED       6b
   //// A               4b
-
   #define R4 0b00000000000000000000000000000100
 
   // R5
@@ -84,7 +81,6 @@
   //// PWDN_MODE       3b
   //// RESET           1b
   //// A               4b
-
   #define R5 0b00000000000000000000000000101
 
   // R6
@@ -94,7 +90,6 @@
   //// RDADDR          4b
   //// uWIRE_LOCK      1b
   //// A               4b
-
   #define R6 0b0000000000000000000010000000110
 
   // R7
@@ -109,25 +104,21 @@
   //// LD_INV          1b
   //// LD_PINMODE      3b
   //// A               4b
-
   #define R7 0b00000000000000000000000000000111
 
   // R8
   //// x              28b
   //// A               4b
-
   #define R8 0b00100000011111011101101111111000
 
   // R9
   //// x              28b
   //// A               4b
-
   #define R9 0b00000011110001111100000000111001
 
   // R10
   //// x              28b
   //// A               4b
-
   #define R10 0b00100001000000000101000011001010
 
   // R13
@@ -136,7 +127,6 @@
   //// DLD_TOL   	   3b
   //// x              11b
   //// A               4b
-
   #define R13 0b00000000000000000100000100001101
 
   // R15
@@ -144,7 +134,6 @@
   //// VCO_CAP_MAN	   1b
   //// VCO_CAPCODE 	   8b
   //// A               4b
-
   #define R15 0b00000010000111111110000000001111
 
 #endif /* INC_LMX2581_CONFIG_H_ */

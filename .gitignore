@@ -2,6 +2,6 @@
 *-backup.*
 *.zip
 
-./Software/Drivers/
-./Software/Debug/
-./Software/.settings/*
+Software/Drivers/*
+Software/Debug/*
+Software/.settings/*
