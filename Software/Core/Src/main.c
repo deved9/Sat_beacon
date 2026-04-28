@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "LMX2581.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -48,7 +48,6 @@
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
-static void MX_DMA_Init(void);
 static void MX_SPI1_Init(void);
 /* USER CODE BEGIN PFP */
 
@@ -92,11 +91,27 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_DMA_Init();
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
   //SystemCoreClockUpdate();
   //LL_Init1msTick(SystemCoreClock);
+
+  // LED TEST
+  //while ((PLL_BTN_1_GPIO_Port->IDR & PLL_BTN_1_Pin)) {}
+  PLL_LED_1_GPIO_Port->BSRR = PLL_LED_1_Pin;
+
+  //while ((PLL_BTN_2_GPIO_Port->IDR & PLL_BTN_2_Pin)) {}
+  PLL_LED_2_GPIO_Port->BSRR = PLL_LED_2_Pin;
+
+  //while ((PLL_TOGGLE_1_GPIO_Port->IDR & PLL_TOGGLE_1_Pin)) {}
+  //while ((PLL_TOGGLE_2_GPIO_Port->IDR & PLL_TOGGLE_2_Pin)) {}
+
+  //LL_GPIO_SetOutputPin(PLL_LED_1_GPIO_Port, PLL_LED_1_Pin);
+  //LL_GPIO_SetOutputPin(PLL_LED_2_GPIO_Port, PLL_LED_2_Pin);
+
+  PLL_t PLL_low = PLL_init(PLL_CE_1_GPIO_Port, PLL_CE_1_Pin, PLL_LE_1_GPIO_Port, PLL_LE_1_Pin, 2400, 0, 0, 0, 0);
+  PLL_write_reg(&PLL_low, SPI1);
+  uint32_t sanity_check = PLL_read_reg(&PLL_low, SPI1, 0);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -172,7 +187,7 @@ static void MX_SPI1_Init(void)
   */
   GPIO_InitStruct.Pin = PLL_DATA_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ALTERNATE;
-  GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_VERY_HIGH;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   GPIO_InitStruct.Alternate = LL_GPIO_AF_0;
@@ -180,7 +195,7 @@ static void MX_SPI1_Init(void)
 
   GPIO_InitStruct.Pin = PLL_CLK_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ALTERNATE;
-  GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_VERY_HIGH;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   GPIO_InitStruct.Alternate = LL_GPIO_AF_0;
@@ -188,30 +203,11 @@ static void MX_SPI1_Init(void)
 
   GPIO_InitStruct.Pin = PLL_MUXout_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ALTERNATE;
-  GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_LOW;
+  GPIO_InitStruct.Speed = LL_GPIO_SPEED_FREQ_VERY_HIGH;
   GPIO_InitStruct.OutputType = LL_GPIO_OUTPUT_PUSHPULL;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   GPIO_InitStruct.Alternate = LL_GPIO_AF_0;
   LL_GPIO_Init(PLL_MUXout_GPIO_Port, &GPIO_InitStruct);
-
-  /* SPI1 DMA Init */
-
-  /* SPI1_TX Init */
-  LL_DMA_SetPeriphRequest(DMA1, LL_DMA_CHANNEL_1, LL_DMAMUX_REQ_SPI1_TX);
-
-  LL_DMA_SetDataTransferDirection(DMA1, LL_DMA_CHANNEL_1, LL_DMA_DIRECTION_MEMORY_TO_PERIPH);
-
-  LL_DMA_SetChannelPriorityLevel(DMA1, LL_DMA_CHANNEL_1, LL_DMA_PRIORITY_LOW);
-
-  LL_DMA_SetMode(DMA1, LL_DMA_CHANNEL_1, LL_DMA_MODE_NORMAL);
-
-  LL_DMA_SetPeriphIncMode(DMA1, LL_DMA_CHANNEL_1, LL_DMA_PERIPH_NOINCREMENT);
-
-  LL_DMA_SetMemoryIncMode(DMA1, LL_DMA_CHANNEL_1, LL_DMA_MEMORY_INCREMENT);
-
-  LL_DMA_SetPeriphSize(DMA1, LL_DMA_CHANNEL_1, LL_DMA_PDATAALIGN_BYTE);
-
-  LL_DMA_SetMemorySize(DMA1, LL_DMA_CHANNEL_1, LL_DMA_MDATAALIGN_WORD);
 
   /* USER CODE BEGIN SPI1_Init 1 */
 
@@ -233,23 +229,6 @@ static void MX_SPI1_Init(void)
   /* USER CODE BEGIN SPI1_Init 2 */
 
   /* USER CODE END SPI1_Init 2 */
-
-}
-
-/**
-  * Enable DMA controller clock
-  */
-static void MX_DMA_Init(void)
-{
-
-  /* Init with LL driver */
-  /* DMA controller clock enable */
-  LL_AHB1_GRP1_EnableClock(LL_AHB1_GRP1_PERIPH_DMA1);
-
-  /* DMA interrupt init */
-  /* DMA1_Channel1_IRQn interrupt configuration */
-  NVIC_SetPriority(DMA1_Channel1_IRQn, 0);
-  NVIC_EnableIRQ(DMA1_Channel1_IRQn);
 
 }
 
