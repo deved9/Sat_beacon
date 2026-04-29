@@ -27,6 +27,7 @@ void PLL_write_reg(PLL_t* pll, SPI_TypeDef* SPI) {
   	pll->LE_port->BRR = pll->LE_pin;
 
   	// Store pointer least significant 8 bits of selected register
+  	uint32_t test_ref = R3_X;
   	uint32_t test_word = pll->Setup[i];
   	byte_value = (uint8_t*) &(pll->Setup[i]);
 
@@ -99,8 +100,11 @@ PLL_t PLL_init(GPIO_TypeDef* CE_port, uint32_t CE_pin, GPIO_TypeDef* LE_port, ui
 	  //If continuous freq. changes are required, follow LMX2581's datasheet
 	};
 
+  for (uint8_t i = 0; i < (N_REG + 1); i++) {
+    pll.Setup[i] = 	setup_data[i];
+  }
 
-	pll.Setup = setup_data;
+
 	pll.CE_port = CE_port;
 	pll.CE_pin = CE_pin;
 	pll.LE_port = LE_port;
@@ -154,12 +158,12 @@ uint32_t PLL_read_reg(PLL_t* pll, SPI_TypeDef* SPI, uint8_t reg_num) {
 
 	// Pull LE high to store data into register
 	pll->LE_port->BSRR = pll->LE_pin;
-	//LL_mDelay(1);
-	//pll->LE_port->BRR = pll->LE_pin;
+	LL_mDelay(1);
+	pll->LE_port->BRR = pll->LE_pin;
 
   data = 0;
 	byte_value = 0;
-	LL_SPI_SetRxFIFOThreshold(SPI, LL_SPI_RX_FIFO_TH_QUARTER);
+	//LL_SPI_SetRxFIFOThreshold(SPI, LL_SPI_RX_FIFO_TH_QUARTER);
 	//Wait until transmission is complete (TX buffer is empty)
 	//while (!LL_SPI_IsActiveFlag_TXE(SPI)) {}
 
@@ -184,7 +188,7 @@ uint32_t PLL_read_reg(PLL_t* pll, SPI_TypeDef* SPI, uint8_t reg_num) {
   LL_mDelay(1);
 	// Wait until all data are transmitted from buffer
 	while (LL_SPI_IsActiveFlag_BSY(SPI)) {}
-	//pll->LE_port->BSRR = pll->LE_pin;
+	pll->LE_port->BSRR = pll->LE_pin;
 	pll->CE_port->BRR = pll->CE_pin;
 
 	return data;

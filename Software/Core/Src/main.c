@@ -98,10 +98,10 @@ int main(void)
 
   // LED TEST
   //while ((PLL_BTN_1_GPIO_Port->IDR & PLL_BTN_1_Pin)) {}
-  PLL_LED_1_GPIO_Port->BSRR = PLL_LED_1_Pin;
+
 
   //while ((PLL_BTN_2_GPIO_Port->IDR & PLL_BTN_2_Pin)) {}
-  PLL_LED_2_GPIO_Port->BSRR = PLL_LED_2_Pin;
+
 
   //while ((PLL_TOGGLE_1_GPIO_Port->IDR & PLL_TOGGLE_1_Pin)) {}
   //while ((PLL_TOGGLE_2_GPIO_Port->IDR & PLL_TOGGLE_2_Pin)) {}
@@ -109,15 +109,52 @@ int main(void)
   //LL_GPIO_SetOutputPin(PLL_LED_1_GPIO_Port, PLL_LED_1_Pin);
   //LL_GPIO_SetOutputPin(PLL_LED_2_GPIO_Port, PLL_LED_2_Pin);
 
-  PLL_t PLL_low = PLL_init(PLL_CE_1_GPIO_Port, PLL_CE_1_Pin, PLL_LE_1_GPIO_Port, PLL_LE_1_Pin, 2400, 0, 0, 0, 0);
+  PLL_t PLL_high = PLL_init(PLL_CE_1_GPIO_Port, PLL_CE_1_Pin, PLL_LE_1_GPIO_Port, PLL_LE_1_Pin, 2400, 0, 0, 0, 0);
+  PLL_write_reg(&PLL_high, SPI1);
+  PLL_t PLL_low = PLL_init(PLL_CE_2_GPIO_Port, PLL_CE_2_Pin, PLL_LE_2_GPIO_Port, PLL_LE_2_Pin, 2520, 0, 0, 1, 0);
   PLL_write_reg(&PLL_low, SPI1);
-  uint32_t sanity_check = PLL_read_reg(&PLL_low, SPI1, 0);
+
+  uint8_t RF_1_out = 0;
+  uint8_t RF_1_out_prev = 0;
+  uint8_t BTN_1_curr = 0;
+  uint8_t BTN_1_prev = 0;
+  uint8_t TOGGLE_1_curr = 0;
+  uint8_t TOGGLE_1_prev = 0;
+  uint8_t TOGGLE_1_en = 0;
+
+  uint8_t RF_2_out = 0;
+  uint8_t RF_2_out_prev = 0;
+  uint8_t BTN_2_curr = 0;
+  uint8_t BTN_2_prev = 0;
+  uint8_t TOGGLE_2_curr = 0;
+  uint8_t TOGGLE_2_prev = 0;
+  uint8_t TOGGLE_2_en = 0;
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+  	BTN_1_curr = !(PLL_BTN_1_GPIO_Port->IDR & PLL_BTN_1_Pin);
+  	TOGGLE_1_curr = !(PLL_TOGGLE_1_GPIO_Port->IDR & PLL_TOGGLE_1_Pin);
+  	BTN_2_curr = !(PLL_BTN_2_GPIO_Port->IDR & PLL_BTN_2_Pin);
+  	TOGGLE_2_curr = !(PLL_TOGGLE_2_GPIO_Port->IDR & PLL_TOGGLE_2_Pin);
+
+  	compare_toggle(TOGGLE_1_curr, TOGGLE_1_prev, &RF_1_out, &TOGGLE_1_en);
+  	compare_toggle(TOGGLE_2_curr, TOGGLE_2_prev, &RF_2_out, &TOGGLE_2_en);
+
+    compare_btn(BTN_1_curr, BTN_1_prev, &RF_1_out, &TOGGLE_1_en);
+    compare_btn(BTN_2_curr, BTN_2_prev, &RF_2_out, &TOGGLE_2_en);
+
+    output_logic(PLL_RF_EN_1_GPIO_Port, PLL_RF_EN_1_Pin, PLL_LED_1_GPIO_Port, PLL_LED_1_Pin, RF_1_out, &RF_1_out_prev);
+    output_logic(PLL_RF_EN_2_GPIO_Port, PLL_RF_EN_2_Pin, PLL_LED_2_GPIO_Port, PLL_LED_2_Pin, RF_2_out, &RF_2_out_prev);
+
+    BTN_1_prev = BTN_1_curr;
+  	BTN_2_prev = BTN_2_curr;
+
+  	TOGGLE_1_prev = TOGGLE_1_curr;
+  	TOGGLE_2_prev = TOGGLE_2_curr;
+
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -183,7 +220,7 @@ static void MX_SPI1_Init(void)
   /**SPI1 GPIO Configuration
   PA2   ------> SPI1_MOSI
   PA5   ------> SPI1_SCK
-  PA6   ------> SPI1_MISO
+  PA11 [PA9]   ------> SPI1_MISO
   */
   GPIO_InitStruct.Pin = PLL_DATA_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_ALTERNATE;
@@ -219,7 +256,7 @@ static void MX_SPI1_Init(void)
   SPI_InitStruct.ClockPolarity = LL_SPI_POLARITY_LOW;
   SPI_InitStruct.ClockPhase = LL_SPI_PHASE_1EDGE;
   SPI_InitStruct.NSS = LL_SPI_NSS_SOFT;
-  SPI_InitStruct.BaudRate = LL_SPI_BAUDRATEPRESCALER_DIV64;
+  SPI_InitStruct.BaudRate = LL_SPI_BAUDRATEPRESCALER_DIV256;
   SPI_InitStruct.BitOrder = LL_SPI_MSB_FIRST;
   SPI_InitStruct.CRCCalculation = LL_SPI_CRCCALCULATION_DISABLE;
   SPI_InitStruct.CRCPoly = 7;
@@ -239,7 +276,6 @@ static void MX_SPI1_Init(void)
   */
 static void MX_GPIO_Init(void)
 {
-  LL_EXTI_InitTypeDef EXTI_InitStruct = {0};
   LL_GPIO_InitTypeDef GPIO_InitStruct = {0};
   /* USER CODE BEGIN MX_GPIO_Init_1 */
 
@@ -352,26 +388,16 @@ static void MX_GPIO_Init(void)
   LL_GPIO_Init(PLL_BTN_2_GPIO_Port, &GPIO_InitStruct);
 
   /**/
+  GPIO_InitStruct.Pin = PLL_TOGGLE_1_Pin;
+  GPIO_InitStruct.Mode = LL_GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
+  LL_GPIO_Init(PLL_TOGGLE_1_GPIO_Port, &GPIO_InitStruct);
+
+  /**/
   GPIO_InitStruct.Pin = PLL_BTN_1_Pin;
   GPIO_InitStruct.Mode = LL_GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = LL_GPIO_PULL_NO;
   LL_GPIO_Init(PLL_BTN_1_GPIO_Port, &GPIO_InitStruct);
-
-  /**/
-  EXTI_InitStruct.Line_0_31 = LL_EXTI_LINE_5;
-  EXTI_InitStruct.LineCommand = ENABLE;
-  EXTI_InitStruct.Mode = LL_EXTI_MODE_IT;
-  EXTI_InitStruct.Trigger = LL_EXTI_TRIGGER_RISING;
-  LL_EXTI_Init(&EXTI_InitStruct);
-
-  /**/
-  LL_GPIO_SetPinMode(PLL_TOGGLE_1_GPIO_Port, PLL_TOGGLE_1_Pin, LL_GPIO_MODE_INPUT);
-
-  /**/
-  LL_GPIO_SetPinPull(PLL_TOGGLE_1_GPIO_Port, PLL_TOGGLE_1_Pin, LL_GPIO_PULL_NO);
-
-  /**/
-  LL_EXTI_SetEXTISource(LL_EXTI_CONFIG_PORTB, LL_EXTI_CONFIG_LINE5);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 
@@ -379,6 +405,35 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void compare_toggle(uint8_t current, uint8_t previous, uint8_t* RF_out, uint8_t* TOGGLE_en) {
+  if (current > previous) {
+    (*RF_out) = !(*RF_out);
+  	(*TOGGLE_en) = !(*TOGGLE_en);
+  }
+}
+
+void compare_btn(uint8_t current, uint8_t previous, uint8_t* RF_out, uint8_t* TOGGLE_en) {
+  if (!(*TOGGLE_en)) {
+    if (current > previous) {
+  	  (*RF_out) = 1;
+  	} else if(current < previous){
+  	 (*RF_out) = 0;
+  	}
+  }
+}
+void output_logic(GPIO_TypeDef* RF_en_port, uint32_t RF_en_pin, GPIO_TypeDef* LED_port, uint32_t LED_pin, uint8_t current, uint8_t* previous) {
+	if (current > (*previous)) {
+	  		RF_en_port->BSRR = RF_en_pin;
+	  		LED_port->BSRR = LED_pin;
+	  		(*previous) = current;
+	} else if (current < (*previous)){
+		RF_en_port->BRR = RF_en_pin;
+		LED_port->BRR = LED_pin;
+		(*previous) = current;
+	}
+}
+
+
 
 /* USER CODE END 4 */
 

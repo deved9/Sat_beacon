@@ -66,7 +66,9 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+void compare_toggle(uint8_t current, uint8_t previous, uint8_t* RF_out, uint8_t* TOGGLE_en);
+void compare_btn(uint8_t current, uint8_t previous, uint8_t* RF_out, uint8_t* TOGGLE_en);
+void output_logic(GPIO_TypeDef* RF_en_port, uint32_t RF_en_pin, GPIO_TypeDef* LED_port, uint32_t LED_pin, uint8_t current, uint8_t* previous);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
@@ -78,13 +80,11 @@ void Error_Handler(void);
 #define PLL_DATA_GPIO_Port GPIOA
 #define PLL_CLK_Pin LL_GPIO_PIN_5
 #define PLL_CLK_GPIO_Port GPIOA
-#define PLL_MUXout_Pin LL_GPIO_PIN_6
-#define PLL_MUXout_GPIO_Port GPIOA
 #define PLL_CE_2_Pin LL_GPIO_PIN_7
 #define PLL_CE_2_GPIO_Port GPIOA
 #define PLL_LE_2_Pin LL_GPIO_PIN_0
 #define PLL_LE_2_GPIO_Port GPIOB
-#define PLL_RF_EN_2_Pin LL_GPIO_PIN_11
+#define PLL_RF_EN_2_Pin LL_GPIO_PIN_12
 #define PLL_RF_EN_2_GPIO_Port GPIOB
 #define PLL_CE_1_Pin LL_GPIO_PIN_14
 #define PLL_CE_1_GPIO_Port GPIOB
@@ -92,6 +92,8 @@ void Error_Handler(void);
 #define PLL_LE_1_GPIO_Port GPIOB
 #define PLL_RF_EN_1_Pin LL_GPIO_PIN_7
 #define PLL_RF_EN_1_GPIO_Port GPIOC
+#define PLL_MUXout_Pin LL_GPIO_PIN_11
+#define PLL_MUXout_GPIO_Port GPIOA
 #define PLL_TOGGLE_2_Pin LL_GPIO_PIN_0
 #define PLL_TOGGLE_2_GPIO_Port GPIOD
 #define PLL_BTN_2_Pin LL_GPIO_PIN_3

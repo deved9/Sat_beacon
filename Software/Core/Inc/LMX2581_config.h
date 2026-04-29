@@ -100,7 +100,7 @@
 
   // R3
   //// x               9b
-  #define R3_X (uint32_t) 0b001000000
+  #define R3_X (uint32_t) 0b1000000
 
   //// VCO_DIV		     5b
   ////// Output divider, states 0-18 represents dividers from 2 to 38. Possible to bypass by OUTx_MUX
@@ -291,38 +291,38 @@
 
   // R13
   //// DLD_ERR_CNT     4b
-  #define R13_DLD_ERR_CNT 4 // for phase det. freq. F_PD < 80 MHz, otherwise experiment
+  #define R13_DLD_ERR_CNT (uint32_t) 4 // for phase det. freq. F_PD < 80 MHz, otherwise experiment
 
   //// DLD_PASS_CNT	  10b
-  #define R13_DLD_PASS_CNT 32 // for F_PD < 80 MHz, otherwise experiment
+  #define R13_DLD_PASS_CNT (uint32_t) 32 // for F_PD < 80 MHz, otherwise experiment
 
   //// DLD_TOL   	     3b
-  #define R13_DLD_TOL 5 // F_PD <= 30 MHz
+  #define R13_DLD_TOL (uint32_t) 5 // F_PD <= 30 MHz
 
   //// x              11b
-  #define R13_X 0b10000010000
+  #define R13_X (uint32_t) 0b10000010000
 
   //// A               4b
   #define R13_ADDRESS 0b1101
 
-  #define R13 ((uint32_t)(R13_DLD_ERR_CNT << 28) | (R13_DLD_PASS_CNT << 18) | (R13_DLD_TOL << 15) | (R13_X << 4) | R13_ADDRESS)
+  #define R13 ((R13_DLD_ERR_CNT << 28) | (R13_DLD_PASS_CNT << 18) | (R13_DLD_TOL << 15) | (R13_X << 4) | R13_ADDRESS)
 
 
 
   // R15
   //// x              19b
-  #define R15_X 1000011111111
+  #define R15_X (uint32_t) 0b1000011111111
 
   //// VCO_CAP_MAN	   1b
   ////// Manual VCO Band Select
-  #define R15_VCO_CAP_MAN 0 // R15_VCO_CAPCODE set as initial starting point of calibration
+  #define R15_VCO_CAP_MAN (uint32_t) 0 // R15_VCO_CAPCODE set as initial starting point of calibration
 
   //// VCO_CAPCODE 	   8b
-  #define R15_VCO_CAPCODE 100 // 2135 + (2720 - 2135)/(256/100) = 2363.5 MHz as initial cal. freq.
+  #define R15_VCO_CAPCODE (uint32_t)100 // 2135 + (2720 - 2135)/(256/100) = 2363.5 MHz as initial cal. freq.
 
   //// A               4b
-  #define R15_ADDRESS 0b1111
+  #define R15_ADDRESS (uint32_t) 0b1111
 
-  #define R15 ((uint32_t)(R15_X << 13) | (R15_VCO_CAP_MAN << 12) | (R15_VCO_CAPCODE << 4) | R15_ADDRESS)
+  #define R15 ((R15_X << 13) | (R15_VCO_CAP_MAN << 12) | (R15_VCO_CAPCODE << 4) | R15_ADDRESS)
 
 #endif /* INC_LMX2581_CONFIG_H_ */
