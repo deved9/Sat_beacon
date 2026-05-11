@@ -51,7 +51,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffd575_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffd575_fffffdff",
     "zone_display_mode": 0
   },
   "git": {
@@ -94,6 +94,7 @@
       11
     ],
     "col_widths": [
+<<<<<<< Updated upstream
       10,
       10,
       10,
@@ -106,6 +107,20 @@
       10,
       10,
       62
+=======
+      222,
+      207,
+      136,
+      131,
+      136,
+      136,
+      198,
+      116,
+      136,
+      136,
+      136,
+      136
+>>>>>>> Stashed changes
     ],
     "custom_group_rules": [],
     "expanded_rows": [],

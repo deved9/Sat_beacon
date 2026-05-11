@@ -10870,7 +10870,7 @@
 				)
 			)
 		)
-		(property "Value" "5n6"
+		(property "Value" "3n3"
 			(at 298.45 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15880,7 +15880,7 @@
 				)
 			)
 		)
-		(property "Value" "5n6"
+		(property "Value" "3n3"
 			(at 163.83 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16042,7 +16042,7 @@
 				)
 			)
 		)
-		(property "Value" "33n"
+		(property "Value" "56n"
 			(at 287.02 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18994,7 +18994,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "2k4"
 			(at 144.78 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21015,7 +21015,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
+<<<<<<< Updated upstream
 		(dnp no)
+=======
+		(dnp yes)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(uuid "7c6d9ed3-49e3-4719-ab0f-39d776ef0a36")
 		(property "Reference" "R19"
@@ -26436,7 +26440,7 @@
 				)
 			)
 		)
-		(property "Value" "33n"
+		(property "Value" "56n"
 			(at 152.4 127.254 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30246,7 +30250,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "560"
+		(property "Value" "2k4"
 			(at 279.4 139.6999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30314,7 +30318,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
+<<<<<<< Updated upstream
 		(dnp no)
+=======
+		(dnp yes)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(uuid "f395700a-e697-41af-a1b2-56b96a668ac1")
 		(property "Reference" "R5"
